@@ -1,0 +1,45 @@
+Abstract
+Condensed of intro
+Includes "teasers", like a trailer for a movie
+
+about 3 paragraphs
+
+intro:
+Aims: Implement operating system concepts on a "bare metal" system - general
+Specific - 
+
+background:
+Explanations of core concepts:
+    Processes and scheudling
+        batch, interactive, real time
+        Find 
+    Memory management
+    IO
+
+To what level? How far?
+Semi ground up explanation of Memory management? Would going as far as virtual memory be a good example, to demonstrate limitations
+of the board resulting in simpler implementations being required? Possible the limits should be discussed in design
+Chekovs gun!!!
+
+design:
+Board specific 
+
+outcome/implementation:
+Mention of 
+
+
+Possibly have combined design and implementation? To reduce repetition, and is seen in many of the previous years report examples
+
+evaluation:
+
+conclusions:
+What would you warn yourself at the start of the project
+
+
+Important notes:
+Advice to former self
+
+Formating
+
+    Widows and orphans - Single lines at the top or bottom of pages
+    Other general formatting issues, can be left until the end
