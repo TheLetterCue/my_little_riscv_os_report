@@ -1,4 +1,28 @@
 \chapter{Introduction}
 \label{cha:intro}
+\section{Aims}
+This project will be based upon the following goals
+\begin{itemize}
+    \item A basic implementation of processes, which can run arbritrary user code
+    \item A scheduler that schedules processes interactively
+    \item Memory management, to ensure that user code has limited access to memory
+    \item IO, for example a text input and output, or other visual methods of output
+\end{itemize}
+\section{Motivations}
+This project is an exploration of concepts and methods of operating systems, with the overall goal to implement these concepts to create a simple operating system. 
+In addition to this, the project will be done using a board that implements the open source, RISC-V processor architecture, which will require research into the operation of RISC-V, as well as any implementation specific features to the board in use. The board used will be the Sifive Hifive1 Rev B.
+The main goal is the implementation of an interactive scheduler to run multiple processes at once, as this is something that will not be implemented unless part of an operating system.
 
+\section{Project Plan}
+The initial part of this project will be detemining an appropriate microcontroller board and setting up the toolchain required to compile and load code onto the board. Following this, the basic components of the system will be set up, such as the interrupt handler. Simple IO will be setup, to allow for ease of debugging, which will then be reimplemented later to be consistent with other IO elements. The implementation of processes will be split into multiple parts, such as the storage of process information, the creation of processes, the scheduling of processes and the deletion of processes. As part of this, memory management will be developed at the same time, as a basic implementation is required for user code to function.
+
+\section{Report Outline}
+\begin{itemize}
+    \item Introduction: This chapter gives the basic overview of the planned project
+    \item Background: This chapter will introduce key concepts to enable a more comprehensive understanding of the projects details
+    \item Design: This chapter will outline the key design decisions made before and during the project
+    \item Implementation: This chapter will give details on the practical implementation of concepts and designs mentioned in previous chapters
+    \item Evaluation: This chapter will discuss the implementation and findings made during the implementation
+    \item Conclusion: This chapter will give a summary of how the aims of the project were met 
+\end{itemize}
 

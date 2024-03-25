@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.26)  6 MAR 2024 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.3.17)  25 MAR 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,7 +187,31 @@ e
 st/fonts/enc/dvips/base/8r.enc}] (./abstract.tex) [1] (./merci.tex) [1
 
 ]
-(./report.toc)
+(./report.toc
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
+ 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
+ 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
+ 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
@@ -210,15 +234,20 @@ st/fonts/enc/dvips/base/8r.enc}] (./abstract.tex) [1] (./merci.tex) [1
 
  (./chapter1.tex
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [5
 
 
-]
+]) [6]
 \openout2 = `chapter2.aux'.
 
- (./chapter2.tex
+
+(./chapter2.tex
 Chapter 2.
-) [6
+) [7
 
 
 
@@ -228,7 +257,7 @@ Chapter 2.
 
  (./chapter3.tex
 Chapter 3.
-) [7
+) [8
 
 
 
@@ -238,7 +267,7 @@ Chapter 3.
 
  (./chapter4.tex
 Chapter 4.
-) [8
+) [9
 
 
 
@@ -248,7 +277,7 @@ Chapter 4.
 
  (./chapter5.tex
 Chapter 5.
-) [9
+) [10
 
 
 
@@ -258,7 +287,7 @@ Chapter 5.
 
  (./chapter6.tex
 Chapter 6.
-) [10
+) [11
 
 
 
@@ -274,21 +303,25 @@ No file appendix1.tex.
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3236 strings out of 475735
- 50809 string characters out of 5784786
- 1853759 words of memory out of 5000000
- 23934 multiletter control sequences out of 15000+600000
- 522240 words of font info for 46 fonts, out of 8000000 for 9000
+ 3321 strings out of 475735
+ 52316 string characters out of 5784786
+ 1856759 words of memory out of 5000000
+ 24000 multiletter control sequences out of 15000+600000
+ 532190 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,79p,184b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,79p,786b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (12 pages, 33735 bytes).
+Output written on report.pdf (13 pages, 38877 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
