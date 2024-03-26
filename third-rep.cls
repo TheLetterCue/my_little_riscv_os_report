@@ -25,7 +25,7 @@
 \ProcessOptions
 
 \LoadClass{report}
-\usepackage{a4-mancs}
+% \usepackage{a4-mancs}
 \usepackage{graphicx}
 
 \usepackage{verbatim}

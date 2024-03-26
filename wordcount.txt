@@ -1,0 +1,118 @@
+File: abstract.tex
+Encoding: ascii
+Words in text: 1
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: chapter1.tex
+Encoding: ascii
+Words in text: 373
+Words in headers: 7
+Words outside text (captions, etc.): 0
+Number of headers: 5
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Chapter: Introduction
+  52+1+0 (1/0/0/0) Section: Aims
+  108+1+0 (1/0/0/0) Section: Motivations
+  122+2+0 (1/0/0/0) Section: Project Plan
+  91+2+0 (1/0/0/0) Section: Report Outline
+
+File: chapter2.tex
+Encoding: ascii
+Words in text: 84
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: chapter3.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: chapter4.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: chapter5.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: chapter6.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 4
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: merci.tex
+Encoding: ascii
+Words in text: 2
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: report.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 4
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+Total
+Words in text: 460
+Words in headers: 19
+Words outside text (captions, etc.): 0
+Number of headers: 11
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Files: 9
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  1+0+0 (0/0/0/0) File(s) total: abstract.tex
+  373+7+0 (5/0/0/0) File(s) total: chapter1.tex
+  84+1+0 (1/0/0/0) File(s) total: chapter2.tex
+  0+1+0 (1/0/0/0) File(s) total: chapter3.tex
+  0+1+0 (1/0/0/0) File(s) total: chapter4.tex
+  0+1+0 (1/0/0/0) File(s) total: chapter5.tex
+  0+4+0 (1/0/0/0) File(s) total: chapter6.tex
+  2+0+0 (0/0/0/0) File(s) total: merci.tex
+  0+4+0 (1/0/0/0) File(s) total: report.tex
+
