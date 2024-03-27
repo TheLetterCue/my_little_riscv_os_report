@@ -1,0 +1,95 @@
+Board settings
+    Clock settings, for both clocks
+
+Purpose of both clocks
+
+High frequency clock
+    Uses
+        Clock frequency
+        UART, which is used for IO
+        QSPI, which is used for flash communication
+
+    Pll and divider can be used with both ring osc and external crystal
+
+
+
+Low frequency clock
+    Uses
+        Machine clock/real time clock
+        Time based interrupts
+
+    Divider can be used for ring oscilattor
+
+
+Ring oscilattor
+    default
+    large range of frequencies
+    Less accurate, can varie during execution
+
+External crystal
+    Constant (with possible pll and div)
+    constant frequency once turned on
+
+
+Info
+    External lf is hardwired
+
+
+toolchain   
+    Compiler/assembler choice as opposed to using premade tools
+
+    development purely on memory -> flash  
+        Exclusion of double tap bootloader
+
+    Linker discussion?
+
+scheduler
+    Discuss choices
+        Interactive
+
+        Round robin
+            with Quantum of x
+
+Memory
+    Memory vs flash
+
+    flash
+        Explanation of notable points
+            Ability to exectute from flash memory, so flash is treated as ROM
+        Limited memory size and cost to copy means that code will be executed from memory
+    
+    Memory
+        Address spaces
+
+        Limited memory (16KiB) means that to maintain multiple processes it is required to limit the possible amount of memory a process can use
+        Giving 2 KiB to each process reduces overhead for memory allocation and means that large applications cannot take all memory
+        allocates 2 KiB to machine memory
+        Needed to store process info and global machine variables
+
+processes
+    How will they be stored
+    7 possible processes
+    Create table with space for 7 processes
+    Available in stack
+    Ready in queue
+    Blocked should be maintained by the blocking source
+
+    What info is stored
+        id
+        parent id
+            Useful meta data
+        start of address space
+        start of code
+        size of code
+        status
+        Registers
+        Stack info and global info not needed to be stored
+        Risc v, registers are general purpose, sp and gp will be set up on init but it is the programs choice on how these are handled, as they will be stored with
+
+    address space + code space
+
+    Code is stored as the address of the first line, which is used as its entry point
+
+
+stacks
+    Use of full descending stack as standard in risc-v

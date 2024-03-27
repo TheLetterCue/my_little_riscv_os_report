@@ -10,7 +10,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 373
+Words in text: 372
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 5
@@ -23,7 +23,7 @@ Subcounts:
   52+1+0 (1/0/0/0) Section: Aims
   108+1+0 (1/0/0/0) Section: Motivations
   122+2+0 (1/0/0/0) Section: Project Plan
-  91+2+0 (1/0/0/0) Section: Report Outline
+  90+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
 Encoding: ascii
@@ -37,7 +37,7 @@ Number of math displayed: 0
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 0
+Words in text: 120
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -96,7 +96,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 460
+Words in text: 579
 Words in headers: 19
 Words outside text (captions, etc.): 0
 Number of headers: 11
@@ -107,9 +107,9 @@ Files: 9
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
-  373+7+0 (5/0/0/0) File(s) total: chapter1.tex
+  372+7+0 (5/0/0/0) File(s) total: chapter1.tex
   84+1+0 (1/0/0/0) File(s) total: chapter2.tex
-  0+1+0 (1/0/0/0) File(s) total: chapter3.tex
+  120+1+0 (1/0/0/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+1+0 (1/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: chapter6.tex
