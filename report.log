@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.3.17)  26 MAR 2024 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.3.17)  27 MAR 2024 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -95,25 +95,33 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 76.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count194
+\float@exts=\toks20
+\float@box=\box51
+\@float@everytoks=\toks21
+\@floatcapt=\box52
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count194
-\lst@gtempboxa=\box51
-\lst@token=\toks20
-\lst@length=\count195
+\lst@mode=\count195
+\lst@gtempboxa=\box53
+\lst@token=\toks22
+\lst@length=\count196
 \lst@currlwidth=\dimen143
-\lst@column=\count196
-\lst@pos=\count197
+\lst@column=\count197
+\lst@pos=\count198
 \lst@lostspace=\dimen144
 \lst@width=\dimen145
-\lst@newlines=\count198
-\lst@lineno=\count199
+\lst@newlines=\count199
+\lst@lineno=\count266
 \lst@maxwidth=\dimen146
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count266
-\lst@skipnumbers=\count267
-\lst@framebox=\box52
+\c@lstnumber=\count267
+\lst@skipnumbers=\count268
+\lst@framebox=\box54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -122,47 +130,47 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count268
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count269
+\l__pdf_internal_box=\box55
 )
 (./report.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
 (./chapter4.aux) (./chapter5.aux) (./chapter6.aux) (./appendix1.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 81.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 80.
+ 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count269
+\scratchcounter=\count270
 \scratchdimen=\dimen147
-\scratchbox=\box54
-\nofMPsegments=\count270
-\nofMParguments=\count271
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count272
+\scratchbox=\box56
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count273
 \MPscratchDim=\dimen148
-\MPnumerator=\count273
-\makeMPintoPDFobject=\count274
-\everyMPtoPDFconversion=\toks22
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -172,7 +180,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count275
+\c@lstlisting=\count276
 
 [1
 
@@ -250,17 +258,38 @@ Chapter 2.
 
  (./chapter3.tex
 Chapter 3.
-) [8
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+<figures/hfclock.png, id=33, 1190.4475pt x 319.1925pt>
+File: figures/hfclock.png Graphic file (type png)
+<use figures/hfclock.png>
+Package pdftex.def Info: figures/hfclock.png  used on input line 12.
+(pdftex.def)             Requested size: 350.99762pt x 94.11226pt.
+[8
 
 
 
 
 ]
+<figures/lfclock.png, id=38, 994.71625pt x 434.62375pt>
+File: figures/lfclock.png Graphic file (type png)
+<use figures/lfclock.png>
+Package pdftex.def Info: figures/lfclock.png  used on input line 18.
+(pdftex.def)             Requested size: 350.99762pt x 153.36073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--20
+
+ []
+
+[9 <./figures/hfclock.png> <./figures/lfclock.png>]) [10]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 Chapter 4.
-) [9
+) [11
 
 
 
@@ -270,7 +299,7 @@ Chapter 4.
 
  (./chapter5.tex
 Chapter 5.
-) [10
+) [12
 
 
 
@@ -280,7 +309,7 @@ Chapter 5.
 
  (./chapter6.tex
 Chapter 6.
-) [11
+) [13
 
 
 
@@ -298,19 +327,19 @@ L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3321 strings out of 475735
- 52297 string characters out of 5784786
- 1856759 words of memory out of 5000000
- 24000 multiletter control sequences out of 15000+600000
+ 3405 strings out of 475735
+ 53747 string characters out of 5784786
+ 1857759 words of memory out of 5000000
+ 24080 multiletter control sequences out of 15000+600000
  532190 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,79p,786b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,7n,79p,818b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (13 pages, 41013 bytes).
+Output written on report.pdf (15 pages, 98946 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
