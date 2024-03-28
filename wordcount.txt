@@ -37,12 +37,12 @@ Number of math displayed: 0
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 410
-Words in headers: 13
+Words in text: 868
+Words in headers: 15
 Words outside text (captions, etc.): 32
-Number of headers: 8
+Number of headers: 9
 Number of floats/tables/figures: 2
-Number of math inlines: 0
+Number of math inlines: 2
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -51,7 +51,8 @@ Subcounts:
   40+2+0 (1/0/0/0) Section: Board Configuration
   370+2+32 (1/2/0/0) Subsection: Clock settings
   0+1+0 (1/0/0/0) Section: Processes
-  0+1+0 (1/0/0/0) Section: Scheduler
+  359+2+0 (1/0/2/0) Subsection: Process Structure
+  99+1+0 (1/0/0/0) Subsection: Scheduler
   0+2+0 (1/0/0/0) Section: Memory Management
   0+1+0 (1/0/0/0) Section: IO
 
@@ -106,12 +107,12 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 785
-Words in headers: 31
+Words in text: 1243
+Words in headers: 33
 Words outside text (captions, etc.): 32
-Number of headers: 18
+Number of headers: 19
 Number of floats/tables/figures: 2
-Number of math inlines: 0
+Number of math inlines: 2
 Number of math displayed: 0
 Files: 9
 Subcounts:
@@ -119,7 +120,7 @@ Subcounts:
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   372+7+0 (5/0/0/0) File(s) total: chapter1.tex
   0+1+0 (1/0/0/0) File(s) total: chapter2.tex
-  410+13+32 (8/2/0/0) File(s) total: chapter3.tex
+  868+15+32 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+1+0 (1/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: chapter6.tex

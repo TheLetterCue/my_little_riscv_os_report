@@ -9,9 +9,10 @@
 \contentsline {section}{\numberline {3.2}Board Configuration}{8}{}%
 \contentsline {subsection}{\numberline {3.2.1}Clock settings}{8}{}%
 \contentsline {section}{\numberline {3.3}Processes}{10}{}%
-\contentsline {section}{\numberline {3.4}Scheduler}{10}{}%
-\contentsline {section}{\numberline {3.5}Memory Management}{10}{}%
-\contentsline {section}{\numberline {3.6}IO}{10}{}%
-\contentsline {chapter}{\numberline {4}Outcome}{11}{}%
-\contentsline {chapter}{\numberline {5}Evaluation}{12}{}%
-\contentsline {chapter}{\numberline {6}Conclusions and further work}{13}{}%
+\contentsline {subsection}{\numberline {3.3.1}Process Structure}{10}{}%
+\contentsline {subsection}{\numberline {3.3.2}Scheduler}{11}{}%
+\contentsline {section}{\numberline {3.4}Memory Management}{11}{}%
+\contentsline {section}{\numberline {3.5}IO}{11}{}%
+\contentsline {chapter}{\numberline {4}Outcome}{12}{}%
+\contentsline {chapter}{\numberline {5}Evaluation}{13}{}%
+\contentsline {chapter}{\numberline {6}Conclusions and further work}{14}{}%
