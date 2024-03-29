@@ -43,3 +43,12 @@ Formating
 
     Widows and orphans - Single lines at the top or bottom of pages
     Other general formatting issues, can be left until the end
+
+
+10k global
+
+intro                   500
+background              2500
+design implementation   2500
+evaluation              2500
+conclusion              2000

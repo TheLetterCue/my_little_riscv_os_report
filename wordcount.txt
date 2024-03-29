@@ -27,19 +27,30 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 1
+Words in text: 110
+Words in headers: 23
 Words outside text (captions, etc.): 0
-Number of headers: 1
+Number of headers: 11
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Chapter: Background
+  0+3+0 (1/0/0/0) Section: Operating System Fundamentals
+  0+2+0 (1/0/0/0) Subsection: Scheduling algorithms
+  0+3+0 (1/0/0/0) Section: Information on board
+  0+2+0 (1/0/0/0) Section: Risc-v fundamentals
+  19+1+0 (1/0/0/0) Subsection: Extensions
+  91+4+0 (3/0/0/0) Subsection: Traps
+  0+2+0 (1/0/0/0) Subsection: Important CSRs
+  0+5+0 (1/0/0/0) Subsection: Comparison between RISC-V and ARM
 
 File: chapter3.tex
 Encoding: ascii
 Words in text: 868
 Words in headers: 15
-Words outside text (captions, etc.): 32
+Words outside text (captions, etc.): 40
 Number of headers: 9
 Number of floats/tables/figures: 2
 Number of math inlines: 2
@@ -49,7 +60,7 @@ Subcounts:
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
   0+1+0 (1/0/0/0) Section: Toolchain
   40+2+0 (1/0/0/0) Section: Board Configuration
-  370+2+32 (1/2/0/0) Subsection: Clock settings
+  370+2+40 (1/2/0/0) Subsection: Clock settings
   0+1+0 (1/0/0/0) Section: Processes
   359+2+0 (1/0/2/0) Subsection: Process Structure
   99+1+0 (1/0/0/0) Subsection: Scheduler
@@ -107,10 +118,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 1243
-Words in headers: 33
-Words outside text (captions, etc.): 32
-Number of headers: 19
+Words in text: 1353
+Words in headers: 55
+Words outside text (captions, etc.): 40
+Number of headers: 29
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
@@ -119,8 +130,8 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   372+7+0 (5/0/0/0) File(s) total: chapter1.tex
-  0+1+0 (1/0/0/0) File(s) total: chapter2.tex
-  868+15+32 (9/2/2/0) File(s) total: chapter3.tex
+  110+23+0 (11/0/0/0) File(s) total: chapter2.tex
+  868+15+40 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+1+0 (1/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: chapter6.tex

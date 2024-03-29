@@ -10,7 +10,7 @@ The Hifive1 has 3 clock regions, a high frequency clock, a low frequency clock, 
 
 \begin{figure}[H]
     \includegraphics[width=0.9\columnwidth]{figures/hfclock.png}
-    \caption[High Frequency Clock Diagram]{The high frequency clock generation scheme, specifying how the high frequency clock is driven and configured}
+    \caption[High Frequency Clock Diagram]{The high frequency clock generation scheme, specifying how the high frequency clock is driven and configured, taken from the Sifive FE310-G002 Manual CITE REFERENCE}
 \end{figure}
 The high frequency clock controls the processor frequency, and the baud rate of input and output is derived from it. The high frequency clock can be driven from two sources, an internally trimmable high frequency ring oscillator and an external high frequency crystal oscillator. The ring oscillator can produce frequencies ranging form ~1 MHz to 75 MHz, whereas the crytal will produce a constant frequency of 16 MHz. Both of these clock sources may be used `as is', or can be modified using a PLL and divider, giving a available range of 48 MHz to 384 MHz. 
 \\
@@ -31,8 +31,10 @@ One word each is allocated for the processes program counter, text section point
 \\
 The vast majority of the process structure is used storing the 31 general purpose registers. This is required to retain the state of each process in between scheduling. The only option to reduce this would be to limit the amount of registers available to use. Only 31 must be stored as the x0 register is hardwired to zero.
 \\
-In other systems, informatiosed -n "109,200p" wordcount.txt like the processes stack pointer may be stored, however standard RISC-V calling convention specifies x2 to be used as the stack pointer, so seperate storing of this infomation is not required, and allows a process to handle its address space on its own, however on process creation x2 and x3 are initialised as the stack pointer and the global pointer, where the stack pointer points to the bottom of the process address space and the global pointer at the top. This is done to reduce the overhead of processes that use the standard calling convention.
+In other systems, information like the processes stack pointer may be stored, however standard RISC-V calling convention specifies x2 to be used as the stack pointer, so seperate storing of this infomation is not required, and allows a process to handle its address space on its own, however on process creation x2 and x3 are initialised as the stack pointer and the global pointer, where the stack pointer points to the bottom of the process address space and the global pointer at the top. This is done to reduce the overhead of processes that use the standard calling convention.
 \subsection{Scheduler}
 To implement an interactive system, a scheduler will be designed to allow a process run for a limited time, before halting the process, and running another ready process. The time allowed for a process to run is refered to as its quantum. Processes will be scheduled to be ran in a round robin fashion, to allow a fair runtime to each process while maintaining a low overhead. This is implemented using a circular queue, where new and halted processes are added to the end of the queue, and processes to run are taken from the start of the queue.
 \section{Memory Management}
+% figures, diagram of memory split into address spaces, labeled process 0 to 6 and machine memory
+
 \section{IO}

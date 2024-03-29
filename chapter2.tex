@@ -1,2 +1,16 @@
 \chapter[Background]{Background}
 \label{cha:backgr}
+\section{Operating System Fundamentals}
+\subsection{Scheduling algorithms}
+\section{Information on board}
+\section{Risc-v fundamentals}
+\subsection{Extensions}
+The Hifive1 uses a 32 bit E31 core, which runs the RV32IMAC ISA, with user and machine priviledge levels. 
+\subsection{Traps}
+In Risc-v, a trap refers to anything where the execution on the hart is handed to the trap handler. There are two categories of traps, synchronous and asynchronous
+\subsubsection{Asynchronous/Interrupts}
+An asynchronous trap is a break in execution caused by external factors, and can be referred to as an interrupt. There are three types of interrupt, software, timer, and external. These are controlled by two units, the CLINT (core local interruptor) and the PLIC (platform level interrupt controller). The CLINT handles the software and timer interrupts, and the PLIC handles the external interrupts.
+% include figure from docs figure 5, interrupt architecture
+\subsubsection{Synchronous}
+\subsection{Important CSRs}
+\subsection{Comparison between RISC-V and ARM}
