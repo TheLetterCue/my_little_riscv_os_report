@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 21
+Words in text: 28
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -37,10 +37,10 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 388
-Words in headers: 27
+Words in text: 675
+Words in headers: 29
 Words outside text (captions, etc.): 0
-Number of headers: 13
+Number of headers: 14
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -48,13 +48,13 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   75+1+0 (1/0/0/0) Chapter: Background
   57+3+0 (1/0/0/0) Section: Operating System Fundamentals
-  0+2+0 (1/0/0/0) Subsection: Process Management
+  198+4+0 (2/0/0/0) Subsection: Process Management
   153+2+0 (1/0/0/0) Subsection: Memory Management
   0+2+0 (1/0/0/0) Subsection: IO Management
   0+3+0 (1/0/0/0) Section: Information on board
   0+2+0 (1/0/0/0) Section: Risc-v fundamentals
   19+1+0 (1/0/0/0) Subsection: Extensions
-  84+4+0 (3/0/0/0) Subsection: Traps
+  173+4+0 (3/0/0/0) Subsection: Traps
   0+2+0 (1/0/0/0) Subsection: Important CSRs
   0+5+0 (1/0/0/0) Subsection: Comparison between RISC-V and ARM
 
@@ -130,20 +130,20 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 1652
-Words in headers: 59
+Words in text: 1946
+Words in headers: 61
 Words outside text (captions, etc.): 38
-Number of headers: 31
+Number of headers: 32
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  21+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  28+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   372+7+0 (5/0/0/0) File(s) total: chapter1.tex
-  388+27+0 (13/0/0/0) File(s) total: chapter2.tex
+  675+29+0 (14/0/0/0) File(s) total: chapter2.tex
   868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+1+0 (1/0/0/0) File(s) total: chapter5.tex
