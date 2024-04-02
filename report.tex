@@ -30,6 +30,9 @@
 
 \usepackage{pslatex} % Use Postscript fonts
 \usepackage{float}
+\usepackage{hyperref}
+\usepackage[acronym]{glossaries}
+\usepackage[utf8]{inputenc}
 
 %% The best way to latex just one chapter is to uncomment lines such as
 %% the next:
@@ -78,6 +81,7 @@
 %% End of preamble, the actual document starts here
 %%
 
+\include{abbreviations}
 \begin{document}
 
 %% This actually creates the title and abstract pages
@@ -87,7 +91,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
-
+\printglossary[type=\acronymtype]
 %% These include the actual text
 \include{chapter1}
 \include{chapter2}
@@ -99,7 +103,7 @@
 \bibliography{refs}             % this causes the references to be
                                 % listed
 
-\bibliographystyle{alpha}       % this determines the style in which
+\bibliographystyle{abbrv}       % this determines the style in which
                                 % the references are printed, other
                                 % possible values are plain and abbrv
 %% Appendices start here
