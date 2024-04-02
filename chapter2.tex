@@ -2,22 +2,20 @@
 \label{cha:backgr}
 This chapter will go over the background of this project, which will cover basic operating system fundamentals, a brief overview of the RISC-V architecture, and the specifics of the board that will be used, which is the Sifive Hifive1 RevB. By the end of the chapter, the reader should be able to understand how parts of the operating system should function, and be able to understand the RISC-V architecture in comparison to the ARM architecture.
 \section{Operating System Fundamentals}
-An operating system's purpose is to provide an interface between user code and the hardware, such as memory and IO, to allow the user code to function seamlessly, and allow interaction with users. This has been split into three key sections, as listed by the aims of the project, as process management, memory management and IO management.\cite{modern_operating}
+An operating system's purpose is to provide an interface between user code and the hardware, such as memory and \ac{io}, to allow the user code to function seamlessly, and allow interaction with users. This has been split into three key sections, as listed by the aims of the project, as process management, memory management and \ac{io} management.\cite{modern_operating}
 \subsection{Process Management}
 
 \subsection{Memory Management}
-The goal of memory management is to streamline how a process can use memory, while at the same time protecting critical sections of memory from faulty or malicous user code. In a system with multiple processes being executed and no memory abstraction, there exists the possibility that two processes attempt to use the same section of memory, creating a conflict that would cause both processes to run incorrectly. This occurs as different processes cannot be aware of each other, and have no choice but to use memory without knowledge of which sections are in use. This can be solved using memory abstraction. The simplest method of this is using address spaces, where each process is given permission to access only segments of directly addressed memory. This prevents each process modifying other processes memory, and allows the process to behave individually, as long as it is provided with the location of its address space.
+The goal of memory management is to streamline how a process can use memory, while at the same time protecting critical sections of memory from faulty or malicous user code. In a system with multiple processes being executed and no memory abstraction, there exists the possibility that two processes attempt to use the same section of memory, creating a conflict that would cause both processes to run incorrectly. This occurs as different processes cannot be aware of each other, and have no choice but to use memory without knowledge of which sections are in use. This can be solved using memory abstraction. The simplest method of this is using address spaces, where each process is given permission to access only segments of directly addressed memory. This prevents each process modifying other processes memory, and allows the process to behave individually, as long as it is provided with the location of its address space.\cite{modern_operating}
 \subsection{IO Management}
 \section{Information on board}
 \section{Risc-v fundamentals}
-\cite{riscv_unpriv}\cite{riscv_priv}\cite{sifive_manual}
-\acrlong{io}
 \subsection{Extensions}
 The Hifive1 uses a 32 bit E31 core, which runs the RV32IMAC ISA, with user and machine priviledge levels. 
 \subsection{Traps}
-In Risc-v, a trap refers to anything where the execution on the hart is handed to the trap handler. There are two categories of traps, synchronous and asynchronous
+In RISC-V, a trap refers to anything where the execution on the hart is handed to the trap handler. There are two categories of traps, synchronous and asynchronous
 \subsubsection{Asynchronous/Interrupts}
-An asynchronous trap is a break in execution caused by external factors, and can be referred to as an interrupt. There are three types of interrupt, software, timer, and external. These are controlled by two units, the CLINT (core local interruptor) and the PLIC (platform level interrupt controller). The CLINT handles the software and timer interrupts, and the PLIC handles the external interrupts.
+An asynchronous trap is a break in execution caused by external factors, and can be referred to as an interrupt. There are three types of interrupt, software, timer, and external. These are controlled by two units, the \ac{clint} and the \ac{plic}. The \ac{clint} handles the software and timer interrupts, and the \ac{plic} handles the external interrupts.
 % include figure from docs figure 5, interrupt architecture
 \subsubsection{Synchronous}
 \subsection{Important CSRs}

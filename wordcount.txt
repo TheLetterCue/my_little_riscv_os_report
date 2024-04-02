@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 4
+Words in text: 21
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 374
+Words in text: 372
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 5
@@ -30,14 +30,14 @@ Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+1+0 (1/0/0/0) Chapter: Introduction
-  54+1+0 (1/0/0/0) Section: Aims
+  52+1+0 (1/0/0/0) Section: Aims
   108+1+0 (1/0/0/0) Section: Motivations
   122+2+0 (1/0/0/0) Section: Project Plan
   90+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 396
+Words in text: 388
 Words in headers: 27
 Words outside text (captions, etc.): 0
 Number of headers: 13
@@ -52,9 +52,9 @@ Subcounts:
   153+2+0 (1/0/0/0) Subsection: Memory Management
   0+2+0 (1/0/0/0) Subsection: IO Management
   0+3+0 (1/0/0/0) Section: Information on board
-  1+2+0 (1/0/0/0) Section: Risc-v fundamentals
+  0+2+0 (1/0/0/0) Section: Risc-v fundamentals
   19+1+0 (1/0/0/0) Subsection: Extensions
-  91+4+0 (3/0/0/0) Subsection: Traps
+  84+4+0 (3/0/0/0) Subsection: Traps
   0+2+0 (1/0/0/0) Subsection: Important CSRs
   0+5+0 (1/0/0/0) Subsection: Comparison between RISC-V and ARM
 
@@ -62,7 +62,7 @@ File: chapter3.tex
 Encoding: ascii
 Words in text: 868
 Words in headers: 15
-Words outside text (captions, etc.): 40
+Words outside text (captions, etc.): 38
 Number of headers: 9
 Number of floats/tables/figures: 2
 Number of math inlines: 2
@@ -72,7 +72,7 @@ Subcounts:
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
   0+1+0 (1/0/0/0) Section: Toolchain
   40+2+0 (1/0/0/0) Section: Board Configuration
-  370+2+40 (1/2/0/0) Subsection: Clock settings
+  370+2+38 (1/2/0/0) Subsection: Clock settings
   0+1+0 (1/0/0/0) Section: Processes
   359+2+0 (1/0/2/0) Subsection: Process Structure
   99+1+0 (1/0/0/0) Subsection: Scheduler
@@ -130,9 +130,9 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 1645
+Words in text: 1652
 Words in headers: 59
-Words outside text (captions, etc.): 40
+Words outside text (captions, etc.): 38
 Number of headers: 31
 Number of floats/tables/figures: 2
 Number of math inlines: 2
@@ -140,11 +140,11 @@ Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  4+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  21+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
-  374+7+0 (5/0/0/0) File(s) total: chapter1.tex
-  396+27+0 (13/0/0/0) File(s) total: chapter2.tex
-  868+15+40 (9/2/2/0) File(s) total: chapter3.tex
+  372+7+0 (5/0/0/0) File(s) total: chapter1.tex
+  388+27+0 (13/0/0/0) File(s) total: chapter2.tex
+  868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+1+0 (1/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: chapter6.tex

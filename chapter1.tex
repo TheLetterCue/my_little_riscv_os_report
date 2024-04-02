@@ -6,7 +6,7 @@ This project will be based upon the following goals
     \item A basic implementation of processes, which can run arbritrary user code
     \item A scheduler that schedules processes interactively
     \item Memory management, to ensure that user code has limited access to memory
-    \item Input/Output (IO), for example a text input and output, or other visual methods of output
+    \item \ac{io}, for example a text input and output, or other visual methods of output
 \end{itemize}
 \section{Motivations}
 This project is an exploration of concepts and methods of operating systems, with the overall goal to implement these concepts to create a simple operating system. 
@@ -14,7 +14,7 @@ In addition to this, the project will be done using a board that implements the 
 The main goal is the implementation of an interactive scheduler to run multiple processes at once, as this is something that will not be implemented unless part of an operating system.
 
 \section{Project Plan}
-The initial part of this project will be detemining an appropriate microcontroller board and setting up the toolchain required to compile and load code onto the board. Following this, the basic components of the system will be set up, such as the interrupt handler. Simple IO will be setup, to allow for ease of debugging, which will then be reimplemented later to be consistent with other IO elements. The implementation of processes will be split into multiple parts, such as the storage of process information, the creation of processes, the scheduling of processes and the deletion of processes. As part of this, memory management will be developed at the same time, as a basic implementation is required for user code to function.
+The initial part of this project will be detemining an appropriate microcontroller board and setting up the toolchain required to compile and load code onto the board. Following this, the basic components of the system will be set up, such as the interrupt handler. Simple \ac{io} will be setup, to allow for ease of debugging, which will then be reimplemented later to be consistent with other IO elements. The implementation of processes will be split into multiple parts, such as the storage of process information, the creation of processes, the scheduling of processes and the deletion of processes. As part of this, memory management will be developed at the same time, as a basic implementation is required for user code to function.
 
 \section{Report Outline}
 \begin{itemize}
