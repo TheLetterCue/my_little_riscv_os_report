@@ -3,14 +3,9 @@
 \label{cha:intro}
 There are many low level concepts that are discussed over the course of higher education. This project sets out to explore some these concepts through basic implementation and experimentation, using simple hardware to allow full comprehension of the system being used during development. This chapter will introduce the aims of the project, and describe the motivations behind the project.
 \section{Aims}
-The overall aim of this project is to produce an operating system for a RISC-V based microcontroller, that allows the execution of multiple processes. This will include the 
-% \begin{itemize}
-%     \item A basic implementation of processes, which can run arbritrary user code
-%     \item A scheduler that schedules processes interactively
-%     \item Memory management, to ensure that user code has limited access to memory
-%     \item \ac{io}, for example a text input and output, or other visual methods of output
-% \end{itemize}
-\section{Motivations}
+The overall aim of this project is to produce an operating system for a \gls{riscv} based microcontroller, that allows the execution of multiple processes. To do this, a RISC-V machine must be selected, and a toolchain to develop, load, and execute/debug code on the machine must be made. The elements of the operating system will be split into three main aims, the exectution and scheduling of processes, the implementation of basic memory management to restrict each processes memory access, and the development of \ac{io} to allow interaction between the processes and a user. The effectiveness and limitations of the system will then be evaluated, and the RISC-V architecture will be compared with other \ac{risc} architectures.
+
+\section{Motivation and Challenges}
 This project is an exploration of concepts and methods of operating systems, with the overall goal to implement these concepts to create a simple operating system. 
 In addition to this, the project will be done using a board that implements the open source, RISC-V processor architecture, which will require research into the operation of RISC-V, as well as any implementation specific features to the board in use. The board used will be the Sifive Hifive1 Rev B.
 The main goal is the implementation of an interactive scheduler to run multiple processes at once, as this is something that will not be implemented unless part of an operating system.

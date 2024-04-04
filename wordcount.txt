@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 28
+Words in text: 36
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 372
+Words in text: 495
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 5
@@ -29,8 +29,8 @@ Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+1+0 (1/0/0/0) Chapter: Introduction
-  52+1+0 (1/0/0/0) Section: Aims
+  59+1+0 (1/0/0/0) Chapter: Introduction
+  116+1+0 (1/0/0/0) Section: Aims
   108+1+0 (1/0/0/0) Section: Motivations
   122+2+0 (1/0/0/0) Section: Project Plan
   90+2+0 (1/0/0/0) Section: Report Outline
@@ -92,19 +92,19 @@ Number of math displayed: 0
 File: chapter5.tex
 Encoding: ascii
 Words in text: 0
-Words in headers: 1
+Words in headers: 4
 Words outside text (captions, etc.): 0
 Number of headers: 1
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
 
-File: chapter6.tex
+File: glossary.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 4
+Words in text: 19
+Words in headers: 0
 Words outside text (captions, etc.): 0
-Number of headers: 1
+Number of headers: 0
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -130,23 +130,23 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 1945
-Words in headers: 61
+Words in text: 2095
+Words in headers: 60
 Words outside text (captions, etc.): 38
-Number of headers: 32
+Number of headers: 31
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  28+0+0 (0/0/0/0) File(s) total: abbreviations.tex
-  372+7+0 (5/0/0/0) File(s) total: chapter1.tex
+  36+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  495+7+0 (5/0/0/0) File(s) total: chapter1.tex
   675+29+0 (14/0/0/0) File(s) total: chapter2.tex
   868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
-  0+1+0 (1/0/0/0) File(s) total: chapter5.tex
-  0+4+0 (1/0/0/0) File(s) total: chapter6.tex
+  0+4+0 (1/0/0/0) File(s) total: chapter5.tex
+  19+0+0 (0/0/0/0) File(s) total: glossary.tex
   2+0+0 (0/0/0/0) File(s) total: merci.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
 

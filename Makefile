@@ -4,6 +4,7 @@ all:
 
 report: *.tex
 	pdflatex report
+	makeglossaries report
 	bibtex report
 	pdflatex report
 	pdflatex report

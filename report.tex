@@ -32,6 +32,7 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{acro}
+\usepackage{glossaries}
 
 %% The best way to latex just one chapter is to uncomment lines such as
 %% the next:
@@ -81,6 +82,7 @@
 %%
 
 \include{abbreviations}
+\include{glossary.tex}
 \begin{document}
 
 %% This actually creates the title and abstract pages
@@ -90,6 +92,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
+\printglossaries
 \printacronyms[name=Abbreviations]
 %% These include the actual text
 \include{chapter1}

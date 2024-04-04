@@ -6,7 +6,6 @@ A level-1 auxiliary file: chapter2.aux
 A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: chapter4.aux
 A level-1 auxiliary file: chapter5.aux
-A level-1 auxiliary file: chapter6.aux
 The style file: abbrv.bst
 A level-1 auxiliary file: appendix1.aux
 Database file #1: refs.bib
@@ -14,7 +13,7 @@ Warning--to sort, need author, editor, or key in sifive_manual
 Warning--empty author and editor in sifive_manual
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            513 strings with 3941 characters,
+            512 strings with 3929 characters,
 and the built_in function-call counts, 411 in all, are:
 = -- 34
 > -- 8
