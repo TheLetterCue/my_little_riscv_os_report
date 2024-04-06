@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 36
+Words in text: 44
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -36,10 +36,10 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 675
-Words in headers: 29
+Words in text: 1363
+Words in headers: 27
 Words outside text (captions, etc.): 0
-Number of headers: 14
+Number of headers: 15
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -51,11 +51,11 @@ Subcounts:
   153+2+0 (1/0/0/0) Subsection: Memory Management
   0+2+0 (1/0/0/0) Subsection: IO Management
   0+3+0 (1/0/0/0) Section: Information on board
-  0+2+0 (1/0/0/0) Section: Risc-v fundamentals
-  19+1+0 (1/0/0/0) Subsection: Extensions
-  173+4+0 (3/0/0/0) Subsection: Traps
-  0+2+0 (1/0/0/0) Subsection: Important CSRs
-  0+5+0 (1/0/0/0) Subsection: Comparison between RISC-V and ARM
+  70+1+0 (1/0/0/0) Section: RISC-V
+  258+1+0 (1/0/0/0) Subsection: Registers
+  292+4+0 (2/0/0/0) Subsection: Base ISA
+  0+2+0 (1/0/0/0) Subsection: Optional Extensions
+  260+4+0 (3/0/0/0) Subsection: Traps
 
 File: chapter3.tex
 Encoding: ascii
@@ -129,19 +129,19 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 2212
-Words in headers: 60
+Words in text: 2908
+Words in headers: 58
 Words outside text (captions, etc.): 38
-Number of headers: 30
+Number of headers: 31
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  36+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  44+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  675+29+0 (14/0/0/0) File(s) total: chapter2.tex
+  1363+27+0 (15/0/0/0) File(s) total: chapter2.tex
   868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex

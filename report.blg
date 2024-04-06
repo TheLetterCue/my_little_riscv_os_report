@@ -11,45 +11,45 @@ A level-1 auxiliary file: appendix1.aux
 Database file #1: refs.bib
 Warning--to sort, need author, editor, or key in sifive_manual
 Warning--empty author and editor in sifive_manual
-You've used 2 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            512 strings with 3929 characters,
-and the built_in function-call counts, 411 in all, are:
-= -- 34
-> -- 8
+            518 strings with 4085 characters,
+and the built_in function-call counts, 635 in all, are:
+= -- 53
+> -- 16
 < -- 0
-+ -- 4
-- -- 2
-* -- 21
-:= -- 69
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 5
++ -- 8
+- -- 4
+* -- 32
+:= -- 108
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 25
-empty$ -- 47
-format.name$ -- 2
-if$ -- 88
+cite$ -- 5
+duplicate$ -- 38
+empty$ -- 70
+format.name$ -- 4
+if$ -- 135
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 2
-pop$ -- 15
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 17
+num.names$ -- 5
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 8
 quote$ -- 0
-skip$ -- 12
+skip$ -- 18
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 16
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 6
 warning$ -- 2
-while$ -- 2
-width$ -- 3
-write$ -- 20
+while$ -- 4
+width$ -- 4
+write$ -- 30
 (There were 2 warnings)
