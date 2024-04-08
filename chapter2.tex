@@ -21,8 +21,9 @@ The base ISA, known as RV32I, specifies the set of instructions that all RISC-V 
 Unlike ARM, the RISC-V ISA does not use flags to determine conditional operations. Instead the condition that is used to determine whether a branch is taken or not is included in the branch operation itself, with instructions like BEQ (branch if equal) or BGT (brach if greater than). These are accompanied by comparison operations, which evalutate similar conditions, and produce either a 1 or a 0 in the target register. JAL (jump and link) branches to a specified location while storing a return address, which allows the implementation of subroutines and functions. 
 \subsubsection{Priviledge levels}
 The previously described operations can be performed in any priviledge mode. RISC-V can support up to three priviledge modes, being user, supervisor, and machine mode, although this report will only be considering user mode and machine mode. The zicsr extension adds operations that allow a hart in machine mode to read and modify \ac{csrs}, such as the CSRRW, which reads a csr to a register and writes a register to a csr, although either the source or target register can be set to zero to disable either the reading or the writing. Also included is the CSRRS and CSRRC, which is similar to CSRRW but sets or clears bits of the \ac{csrs}. 
-\subsection{Optional Extensions}
+\subsubsection{Optional Extensions}
 % Include info on A, M, and C
+There are several optional extensions that can be implemented. This includes the `C' extensions, which includes a reduced number of instructions from the base ISA, but in a 16 bit compressed format. The `M' extension includes 32 bit instructions to perfrom multiplication and division, as well as a remainder operation. The `A' extension includes a number of atomic memory operations, such as store conditional, swap istructions and memory operations that perform logic operations atomically.
 \subsection{Traps}
 In RISC-V, a trap refers to anything where the execution on the hart is handed to the trap handler. There are two categories of traps, synchronous and asynchronous
 \subsubsection{Asynchronous/Interrupts}

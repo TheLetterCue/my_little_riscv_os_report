@@ -36,7 +36,7 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 1363
+Words in text: 1437
 Words in headers: 27
 Words outside text (captions, etc.): 0
 Number of headers: 15
@@ -53,8 +53,7 @@ Subcounts:
   0+3+0 (1/0/0/0) Section: Information on board
   70+1+0 (1/0/0/0) Section: RISC-V
   258+1+0 (1/0/0/0) Subsection: Registers
-  292+4+0 (2/0/0/0) Subsection: Base ISA
-  0+2+0 (1/0/0/0) Subsection: Optional Extensions
+  366+6+0 (3/0/0/0) Subsection: Base ISA
   260+4+0 (3/0/0/0) Subsection: Traps
 
 File: chapter3.tex
@@ -129,7 +128,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 2908
+Words in text: 2982
 Words in headers: 58
 Words outside text (captions, etc.): 38
 Number of headers: 31
@@ -141,7 +140,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   44+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  1363+27+0 (15/0/0/0) File(s) total: chapter2.tex
+  1437+27+0 (15/0/0/0) File(s) total: chapter2.tex
   868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex

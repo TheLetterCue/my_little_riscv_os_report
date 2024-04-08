@@ -14,10 +14,10 @@
 \contentsline {subsection}{\numberline {2.3.1}Registers}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Base ISA}{12}{subsection.2.3.2}%
 \contentsline {subsubsection}{Priviledge levels}{13}{section*.8}%
-\contentsline {subsection}{\numberline {2.3.3}Optional Extensions}{13}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Traps}{13}{subsection.2.3.4}%
-\contentsline {subsubsection}{Asynchronous/Interrupts}{13}{section*.9}%
-\contentsline {subsubsection}{Synchronous}{14}{section*.10}%
+\contentsline {subsubsection}{Optional Extensions}{13}{section*.9}%
+\contentsline {subsection}{\numberline {2.3.3}Traps}{13}{subsection.2.3.3}%
+\contentsline {subsubsection}{Asynchronous/Interrupts}{13}{section*.10}%
+\contentsline {subsubsection}{Synchronous}{14}{section*.11}%
 \contentsline {chapter}{\numberline {3}Design and Implementation}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Toolchain}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Board Configuration}{15}{section.3.2}%
@@ -29,4 +29,4 @@
 \contentsline {section}{\numberline {3.5}IO}{18}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Evaluation}{19}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Conclusions and further work}{20}{chapter.5}%
-\contentsline {chapter}{\numberline {}Bibliography}{21}{chapter*.11}%
+\contentsline {chapter}{\numberline {}Bibliography}{21}{chapter*.12}%
