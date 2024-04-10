@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.3.17)  8 APR 2024 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.3.17)  10 APR 2024 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -783,11 +783,11 @@ LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 0DEDA6310E6FB269170C9D16BDD64848;3285.
+(rerunfilecheck)             Checksum: 5A8BD5F832E76CD53CC27661C095AA36;3285.
  ) 
 Here is how much of TeX's memory you used:
  19305 strings out of 475735
- 359860 string characters out of 5784786
+ 359852 string characters out of 5784786
  1861759 words of memory out of 5000000
  39671 multiletter control sequences out of 15000+600000
  538262 words of font info for 81 fonts, out of 8000000 for 9000
@@ -796,7 +796,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (23 pages, 132661 bytes).
+Output written on report.pdf (23 pages, 133159 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  268 compressed objects within 3 object streams
