@@ -9,6 +9,12 @@ H.~B. Andrew S.~Tanenbaum.
 \newblock {\em Modern Operating Systems 4th Edition}.
 \newblock Pearson, 2015.
 
+\bibitem{riscv_priv}
+J.~H. Andrew~Waterman, Krste~Asanovi, editor.
+\newblock {\em The RISC-V Instruction Set Manual, Volume II: Privileged
+  Architecture, Document Version 2021120}.
+\newblock RISC-V International, December 2021.
+
 \bibitem{riscv_unpriv}
 K.~A. Andrew~Waterman, editor.
 \newblock {\em The RISC-V Instruction Set Manual, Volume I: User-Level ISA,

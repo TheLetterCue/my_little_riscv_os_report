@@ -9,24 +9,26 @@
 \contentsline {subsubsection}{Scheduling Algorithms}{11}{section*.7}%
 \contentsline {subsection}{\numberline {2.1.2}Memory Management}{11}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}IO Management}{12}{subsection.2.1.3}%
+\contentsline {subsubsection}{Programmable \ac {io}}{12}{section*.8}%
+\contentsline {subsubsection}{Interrupt driven \ac {io}}{12}{section*.9}%
 \contentsline {section}{\numberline {2.2}RISC-V}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Registers}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Base ISA}{12}{subsection.2.2.2}%
-\contentsline {subsubsection}{Privilege levels}{13}{section*.8}%
-\contentsline {subsubsection}{Optional Extensions}{13}{section*.9}%
+\contentsline {subsection}{\numberline {2.2.1}Registers}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Base ISA}{13}{subsection.2.2.2}%
+\contentsline {subsubsection}{Privilege levels}{14}{section*.10}%
+\contentsline {subsubsection}{Optional Extensions}{14}{section*.11}%
 \contentsline {subsection}{\numberline {2.2.3}Traps}{14}{subsection.2.2.3}%
-\contentsline {subsubsection}{Asynchronous}{14}{section*.10}%
-\contentsline {subsubsection}{Synchronous}{14}{section*.11}%
-\contentsline {section}{\numberline {2.3}Information on board}{14}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Design and Implementation}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Toolchain}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Board Configuration}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Clock settings}{15}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Processes}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Process Structure}{17}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Scheduler}{18}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Memory Management}{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}IO}{18}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Evaluation}{19}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusions and further work}{20}{chapter.5}%
-\contentsline {chapter}{\numberline {}Bibliography}{21}{chapter*.12}%
+\contentsline {subsubsection}{Asynchronous}{14}{section*.12}%
+\contentsline {subsubsection}{Synchronous}{15}{section*.13}%
+\contentsline {section}{\numberline {2.3}Information on board}{15}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Design and Implementation}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Toolchain}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Board Configuration}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Clock settings}{16}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Processes}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Process Structure}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Scheduler}{19}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Memory Management}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}IO}{19}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Evaluation}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusions and further work}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {}Bibliography}{22}{chapter*.14}%
