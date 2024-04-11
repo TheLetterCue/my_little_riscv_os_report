@@ -36,11 +36,11 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 1900
+Words in text: 1967
 Words in headers: 31
-Words outside text (captions, etc.): 0
+Words outside text (captions, etc.): 9
 Number of headers: 17
-Number of floats/tables/figures: 0
+Number of floats/tables/figures: 1
 Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
@@ -54,7 +54,7 @@ Subcounts:
   258+1+0 (1/0/0/0) Subsection: Registers
   399+6+0 (3/0/0/0) Subsection: Base ISA
   260+3+0 (3/0/0/0) Subsection: Traps
-  0+3+0 (1/0/0/0) Section: Information on board
+  67+3+9 (1/1/0/0) Section: Information on board
 
 File: chapter3.tex
 Encoding: ascii
@@ -128,11 +128,11 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 3453
+Words in text: 3520
 Words in headers: 62
-Words outside text (captions, etc.): 38
+Words outside text (captions, etc.): 47
 Number of headers: 33
-Number of floats/tables/figures: 2
+Number of floats/tables/figures: 3
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
@@ -141,7 +141,7 @@ Subcounts:
   51+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  1900+31+0 (17/0/0/0) File(s) total: chapter2.tex
+  1967+31+9 (17/1/0/0) File(s) total: chapter2.tex
   868+15+38 (9/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex

@@ -10,46 +10,48 @@ The style file: abbrv.bst
 A level-1 auxiliary file: appendix1.aux
 Database file #1: refs.bib
 Warning--to sort, need author, editor, or key in sifive_manual
+Warning--to sort, need author, editor, or key in sifive_schematics
+Warning--empty author and editor in sifive_schematics
 Warning--empty author and editor in sifive_manual
-You've used 4 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            523 strings with 4256 characters,
-and the built_in function-call counts, 859 in all, are:
-= -- 72
-> -- 24
+            525 strings with 4297 characters,
+and the built_in function-call counts, 1035 in all, are:
+= -- 87
+> -- 25
 < -- 0
-+ -- 12
++ -- 13
 - -- 6
-* -- 43
-:= -- 147
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 11
+* -- 54
+:= -- 169
+add.period$ -- 13
+call.type$ -- 5
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 51
-empty$ -- 93
+cite$ -- 9
+duplicate$ -- 64
+empty$ -- 117
 format.name$ -- 6
-if$ -- 182
+if$ -- 223
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 5
-newline$ -- 22
+int.to.str$ -- 5
+missing$ -- 6
+newline$ -- 26
 num.names$ -- 8
-pop$ -- 29
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 13
 quote$ -- 0
-skip$ -- 24
+skip$ -- 30
 stack$ -- 0
-substring$ -- 22
-swap$ -- 4
+substring$ -- 27
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 2
+type$ -- 10
+warning$ -- 4
 while$ -- 6
-width$ -- 5
-write$ -- 40
-(There were 2 warnings)
+width$ -- 6
+write$ -- 48
+(There were 4 warnings)

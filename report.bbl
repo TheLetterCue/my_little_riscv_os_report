@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{sifive_schematics}
+{\em Hifive1 Rev B Schematics}.
+\newblock Sifive Inc, 2021.
+
 \bibitem{sifive_manual}
 {\em SiFive FE310-G002 Manual v1p5}.
 \newblock Sifive Inc, 2022.

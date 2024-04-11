@@ -36,3 +36,10 @@ An asynchronous trap is a break in execution caused by external factors, and can
 \subsubsection{Synchronous}
 A synchronous trap occurs in response to the execution of an instruction, which occurs with the clock, hence synchronous. These come from two sources, errors and environment calls. Errors included memory misalignment's, access faults and illegal instructions. This allows for these errors to handled, either to be inform the process of the error, or to remove the process. Environment calls are how processes make calls to the kernel to perform actions that are above the processes access level, generally to perform IO operations, or to interact with other processes.
 \section{Information on board}
+% include picture of the board!!
+\begin{figure}[H]
+    \includegraphics[width=0.6\columnwidth]{figures/board_image.png}
+    \centering
+    \caption[Sifive Hifive1 RevB]{This figure shows the Sifive Hifive1 RevB development board from the Hifive1 Rev B Schematics\cite{sifive_schematics}}
+\end{figure}
+This project will be done on the Sifive Hifive1 Rev B. This is the second iteration of the Hifive1 board, which uses the SiFive Freedom E310-G002 chip featuring a RV32IMAC core, a 16 KiB instruction cache, 16 KiB data RAM, and 512 Mib of flash memory, which acts as ROM. It has Arduino comaptible pins, a set of LEDs, a Bluetooth/Wifi chip, and a USB interface.
