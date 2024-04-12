@@ -2,6 +2,16 @@
 \chapter{Design and Implementation}
 \label{cha:design}
 \section{Toolchain}
+To develop code for the Hifive1, it was required to develop an effective method of compiling and loading code onto the board, as well as an effective debugger. Initially I used the Sifive's Freedom E SDK with PlatformIO to perform basic prototypes and experiments with the board. However these tools did not provide a sufficient level of control over what was compiled and loaded, as the SDK interacts with many parts of system that were needed for the project, as well as altering the configuration of the board. This meant that the SDK was effective for developing simple applications with the board but did not allow for low level control of operations like iterrupts or privilege levels. Inspection of source code of these lead to useful insights.\\
+% https://github.com/riscv-collab/riscv-gnu-toolchain reference?
+To replace these tools I used several applications from the riscv-gnu-toolchain. Used from this was as, with the target architecture of rv32ima\_zicsr\_zifencei, which specifies 32 bit riscv with the standard integer ISA, the multiply-divide extension, the atomics extension, the csr extension, and the fence extension.
+Ld is then used to link the intermediate files. This uses a linker config to specify which sections of the code will be loaded into which sections. This was intitially set to load all parts of the code into RAM, which for the Hifive1 begins at 0x80000000. This was intitially done because at the start of development I wanted to avoid overwriting the pre-loaded double tap bootloader, which enabled the recovery of the board if for some reason a programming error caused a critical fault. However as the project moved on this was no longer possible, as this bootloader interacted with many of the boards configs, which was not acceptable.
+Following this, openocd was used to create a connection to allow GDB to connect with the board.
+% The end of this is gross
+% Steps: Started with platform IO with the sifive e sdk
+% Then moved onto riscv gnu toolchain with openocd and gdb to load code only into memory
+% Then modified the config to load code into the flash
+% Mention the bootloader?
 \section{Board Configuration}
 On the Hifive1, there are several important configuration options that affect general operation of the board. The most notable of these are the clock settings, as these indicate the frequency of the processor, input and output frequencies, and timer interrupts. 
 \subsection{Clock settings}
@@ -24,6 +34,9 @@ The high frequency clock controls the processor frequency, and the baud rate of 
 The low frequency clock is part of the Hifive1 `always on block' and controls the watchdog timer, which can be used to cause a reset on malfunction, and both the real-time clock and the machine timer, both of which are used to generate timed interrupts. Similar to the high frequency clock can be driven from a ring oscillator or from an external clock, which in the Hifive1 is a crystal oscillator. The low frequency ring oscillator functions at 1.5 KHz to 230 KHz using a frequency divider, and the implemented external clock runs at a constant 32.768 KHz, with no option to divide the frequency.
 \\
 For both clock domains, the crystal oscillator was chosen. The ring oscillator gives the option to operate at a higher frequency, which would result in a higher number of operations per second. While in a practical operating system this would be desirable, since this system is not intended for practical use, a constant frequency was more desirable as it would give more predictable results, and makes \ac{io} operations more reliable. For the low frequency clock, a high frequency would be beneficial for a real time system as the higher frequency would allow for more precise timing of interrupts and other functions, however for an interactive system this precision is not required, and so similar to the high frequency domain the constant frequency of a crystal oscillator was selected.
+\section{Traps}
+\subsection{Configuration}
+There are two methods of implementing a trap handler in \gls{riscv}, direct and vectored. In direct mode, when a trap is called the \ac{pc} is set to whatever value is specified in the upper 30 bits of the MTVEC csr, which is padded to create a 32 bit address. In vectored mode, the synchronous traps are taken identically to direct mode, however asynchronous traps will set the \ac{pc} to the padded value in MTVEC added to four times the trap code. This decreases the number of instructions required before an interrupt can begin exectution. This is useful as it also allows the state of the registers to be preserved, so when a process is preempted it avoids the needed to push several registers to the stack to allow the trap handler to determine the trap type.
 \section{Processes}
 \subsection{Process Structure}
 Due to the extremely limited amount of memory available on the Hifive1, the data required to store information on each process has to be structured carefully, else the amount of memory required to store process information would begin to limit the amount of memory available to the processes themselves. In the current implementation, 35 bytes are used to store process information.
