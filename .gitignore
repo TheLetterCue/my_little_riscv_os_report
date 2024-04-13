@@ -1,0 +1,14 @@
+*.aux
+*.bak
+*.acn
+*.bbl
+*.blg
+*.glg
+*.glo
+*.gls
+*.ist
+*.lof
+*.log
+*.lot
+*.out
+*.toc
