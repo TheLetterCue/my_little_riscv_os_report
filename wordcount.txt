@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 57
+Words in text: 65
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -58,21 +58,22 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 1477
-Words in headers: 17
+Words in text: 1785
+Words in headers: 21
 Words outside text (captions, etc.): 38
-Number of headers: 11
+Number of headers: 12
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
-  473+1+0 (1/0/0/0) Section: Toolchain
-  40+2+0 (1/0/0/0) Section: Board Configuration
+  485+1+0 (1/0/0/0) Section: Toolchain
+  235+4+0 (1/0/0/0) Section: Board Boot and Configuration
   370+2+38 (1/2/0/0) Subsection: Clock settings
+  27+2+0 (1/0/0/0) Subsection: Other Settings
   0+1+0 (1/0/0/0) Section: Traps
-  136+1+0 (1/0/0/0) Subsection: Configuration
+  210+1+0 (1/0/0/0) Subsection: Configuration
   0+1+0 (1/0/0/0) Section: Processes
   359+2+0 (1/0/2/0) Subsection: Process Structure
   99+1+0 (1/0/0/0) Subsection: Scheduler
@@ -130,21 +131,21 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 4135
-Words in headers: 64
+Words in text: 4451
+Words in headers: 68
 Words outside text (captions, etc.): 53
-Number of headers: 35
+Number of headers: 36
 Number of floats/tables/figures: 3
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  57+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  65+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
-  1477+17+38 (11/2/2/0) File(s) total: chapter3.tex
+  1785+21+38 (12/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex
   34+0+0 (0/0/0/0) File(s) total: glossary.tex
