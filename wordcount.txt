@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 65
+Words in text: 73
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -58,10 +58,10 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 2954
-Words in headers: 33
+Words in text: 3252
+Words in headers: 36
 Words outside text (captions, etc.): 38
-Number of headers: 18
+Number of headers: 19
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
@@ -82,8 +82,8 @@ Subcounts:
   42+1+0 (1/0/0/0) Section: Scheduler
   136+3+0 (1/0/0/0) Subsection: Creating a Process
   199+3+0 (1/0/0/0) Subsection: Running a process
-  446+1+0 (1/0/0/0) Subsection: Preemption
-  0+2+0 (1/0/0/0) Section: Memory Management
+  600+4+0 (2/0/0/0) Subsection: Preemption
+  144+2+0 (1/0/0/0) Section: Memory Management
   0+1+0 (1/0/0/0) Section: IO
 
 File: chapter4.tex
@@ -137,21 +137,21 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 5650
-Words in headers: 80
+Words in text: 5956
+Words in headers: 83
 Words outside text (captions, etc.): 53
-Number of headers: 42
+Number of headers: 43
 Number of floats/tables/figures: 3
 Number of math inlines: 2
 Number of math displayed: 0
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  65+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  73+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
-  2954+33+38 (18/2/2/0) File(s) total: chapter3.tex
+  3252+36+38 (19/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex

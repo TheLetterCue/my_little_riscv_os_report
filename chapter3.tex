@@ -74,7 +74,11 @@ Each process is given 500 milliseconds of execution time. This time includes exe
     \item If the status is terminated, add the process entry pointer to the free entry stack
     \item Else add the pointer to the process queue
 \end{enumerate}
+\subsubsection{Blocking and Yielding}
+Scheduling ready processes and terminated processes is intuitive, however when a process is blocked, the scheduler is instructed to ignore that process. This is because it is the job of the blocking source to store its blocked processes. This reduces the comlexity of the scheduler and gives more freedom as to how and when a process in unblocked. \\
+When a process is yields or is blocked, they effetively request immediate preemption. One method of doing this would be to call the scheduler directly from whatever enviroment call or interrupt caused the yield or block. However this could create an inconsisten state, as the scheduler preempter is always called from an interrupt to user code. Because of this, when a process yields or is blocked, it simply zeros the timer compare, so that when it returns to the user code it will immediately raise an exception, allowing the scheduler to handle the process as normal.
 \section{Memory Management}
 % figures, diagram of memory split into address spaces, labeled process 0 to 6 and machine memory
-
+For this project, \gls{riscv}'s \ac{pmp} will be used to implement and enforce address spaces. The Hifive1 has two forms of memory, a 512 MiB flash memory to serve as ROM and an 16 KiB L1 \ac{dtim} which served as RAM. Both of these sections allow for execution of code. Because of this and the limited amount of RAM, the text section of each program will be stored on and executed from the flash memory. The 16KiB of RAM is split into 8 address spaces, making each space 2KiB. This size was chosen as a balance between number of available processes and amount of memory available to each process, as well as ensuring that the space needed to store information of the processes did not take up the majority of the machine address space. This is because since each process entry requires 35 bytes
+% space calculation
 \section{IO}
