@@ -1,5 +1,6 @@
 all:
 	make report
+	make clean
 	make wordcount
 
 report: *.tex

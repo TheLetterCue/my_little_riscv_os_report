@@ -58,10 +58,10 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 1940
-Words in headers: 25
+Words in text: 2111
+Words in headers: 26
 Words outside text (captions, etc.): 38
-Number of headers: 14
+Number of headers: 15
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
@@ -75,10 +75,11 @@ Subcounts:
   0+1+0 (1/0/0/0) Section: Traps
   210+1+0 (1/0/0/0) Subsection: Configuration
   155+2+0 (1/0/0/0) Subsection: Asynchronous Traps
-  0+2+0 (1/0/0/0) Subsection: Synchronous Traps
+  27+2+0 (1/0/0/0) Subsection: Synchronous Traps
   0+1+0 (1/0/0/0) Section: Processes
-  359+2+0 (1/0/2/0) Subsection: Process Structure
-  99+1+0 (1/0/0/0) Subsection: Scheduler
+  421+2+0 (1/0/2/0) Subsection: Process Structure
+  181+1+0 (1/0/0/0) Subsection: States
+  0+1+0 (1/0/0/0) Section: Scheduler
   0+2+0 (1/0/0/0) Section: Memory Management
   0+1+0 (1/0/0/0) Section: IO
 
@@ -133,10 +134,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 4606
-Words in headers: 72
+Words in text: 4777
+Words in headers: 73
 Words outside text (captions, etc.): 53
-Number of headers: 38
+Number of headers: 39
 Number of floats/tables/figures: 3
 Number of math inlines: 2
 Number of math displayed: 0
@@ -147,7 +148,7 @@ Subcounts:
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
-  1940+25+38 (14/2/2/0) File(s) total: chapter3.tex
+  2111+26+38 (15/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex
   34+0+0 (0/0/0/0) File(s) total: glossary.tex
