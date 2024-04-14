@@ -58,10 +58,10 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 3252
-Words in headers: 36
+Words in text: 3537
+Words in headers: 43
 Words outside text (captions, etc.): 38
-Number of headers: 19
+Number of headers: 22
 Number of floats/tables/figures: 2
 Number of math inlines: 2
 Number of math displayed: 0
@@ -83,7 +83,10 @@ Subcounts:
   136+3+0 (1/0/0/0) Subsection: Creating a Process
   199+3+0 (1/0/0/0) Subsection: Running a process
   600+4+0 (2/0/0/0) Subsection: Preemption
-  144+2+0 (1/0/0/0) Section: Memory Management
+  0+2+0 (1/0/0/0) Section: Memory Management
+  287+2+0 (1/0/0/0) Subsection: Address Spaces
+  101+3+0 (1/0/0/0) Subsection: Address Space Layout
+  41+2+0 (1/0/0/0) Subsection: \ac{pmp} Use
   0+1+0 (1/0/0/0) Section: IO
 
 File: chapter4.tex
@@ -137,10 +140,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 5956
-Words in headers: 83
+Words in text: 6241
+Words in headers: 90
 Words outside text (captions, etc.): 53
-Number of headers: 43
+Number of headers: 46
 Number of floats/tables/figures: 3
 Number of math inlines: 2
 Number of math displayed: 0
@@ -151,7 +154,7 @@ Subcounts:
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
-  3252+36+38 (19/2/2/0) File(s) total: chapter3.tex
+  3537+43+38 (22/2/2/0) File(s) total: chapter3.tex
   0+1+0 (1/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
