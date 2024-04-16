@@ -58,7 +58,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 4634
+Words in text: 4744
 Words in headers: 54
 Words outside text (captions, etc.): 50
 Number of headers: 28
@@ -88,8 +88,8 @@ Subcounts:
   101+3+0 (1/0/0/0) Subsection: Address Space Layout
   401+2+12 (1/1/4/0) Subsection: \ac{pmp} Use
   60+1+0 (1/0/0/0) Section: IO
-  106+1+0 (1/0/0/0) Subsection: LEDs
-  571+10+0 (5/0/0/1) Subsection: Text input and output
+  106+1+0 (1/0/0/0) Subsection: LED's
+  681+10+0 (5/0/0/1) Subsection: Text input and output
 
 File: chapter4.tex
 Encoding: ascii
@@ -146,7 +146,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 7369
+Words in text: 7479
 Words in headers: 103
 Words outside text (captions, etc.): 65
 Number of headers: 53
@@ -160,7 +160,7 @@ Subcounts:
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
   597+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
-  4634+54+50 (28/3/6/1) File(s) total: chapter3.tex
+  4744+54+50 (28/3/6/1) File(s) total: chapter3.tex
   0+3+0 (2/0/0/0) File(s) total: chapter4.tex
   0+4+0 (1/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
