@@ -1,3 +1,11 @@
 % Testing and evaluation is very well thought through and described. The report could be used to reproduce the work.
 \chapter[Reflections]{Reflections}
 \label{cha:refl}
+\section{Design Reflections}
+% memory man: was the constant address space sufficient, or should another system have been implemented, like a dynamic system that include requests for heap memory, instead of providing a constant amount
+% processes: was the project developed to allow for sufficient interprocess communication? programs could create forks and new processes however no design was included to allow for these to communicate after the initial creation
+% Lack of method to write and user code seperately to the oa
+% Limited IO, could more IO been developed to make the system more interactive, for instance use of the aduino compatable pins, or basic use of the wireless chip.
+% Implemented IO, was all the functions built to function? Inputs blocked execution, was this appropriate or could a better design be made to allow this to be interrupt based
+% Was the choice of interactive shceduler correct? or should of a batch system have been chosen due to the limited io of the device limiting the interactivity of the device
+% Did the os function? at what rate did it execute? how did the quantum affect the interactivity
