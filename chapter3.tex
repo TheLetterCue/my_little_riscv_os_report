@@ -25,7 +25,7 @@ The high frequency clock controls the processor frequency, and the baud rate of 
 \begin{figure}[H]
     \includegraphics[width=0.9\columnwidth]{figures/lfclock.png}
     \centering
-    \caption[Low Frequency Clock Diagram]{The low frequency clock generation scheme, specifying how the low frequency clock is driven and configured\cite{sifive_manual}}
+    \caption[Low Frequency Clock Diagram]{The low frequency clock generation scheme, specifying how the low frequency clock is driven and configured, taken from the Sifive FE310-G002 Manual\cite{sifive_manual}}
 \end{figure}
 The low frequency clock is part of the Hifive1 `always on block' and controls the watchdog timer, which can be used to cause a reset on malfunction, and both the real-time clock and the machine timer, both of which are used to generate timed interrupts. Similar to the high frequency clock can be driven from a ring oscillator or from an external clock, which in the Hifive1 is a crystal oscillator. The low frequency ring oscillator functions at 1.5 KHz to 230 KHz using a frequency divider, and the implemented external clock runs at a constant 32.768 KHz, with no option to divide the frequency.
 \\
@@ -38,8 +38,9 @@ When an enabled trap is raised, the pc is set to the trap vector according to th
 \subsection{Asynchronous Traps}
 Due the use of vectored trap mode, instead of having one single handler for asynchronous traps, each interrupt has it's own handler. Since the Hifive1 does not implement a supervisor mode, there are only 3 available interrupt types, software, timer and external. The software interrupts are not used, as they are mainly used for communication between harts, and the Hifive1 only has a single hart. The machine timer is used for the preemptive scheduler, which will be explored in detail in further sections. Finally the external interrupts, the handler will read from the \ac{clint} claim/complete register. This will provide the handler with the highest priority interrupt code, which will then be used in a jump table to execute the correct interrupt, and once completed the same value is written back to the claim/complete register to indicate that the interrupt has been handled. The interrupts implemented in this will be explored in further sections.
 \subsection{Synchronous Traps}
-The trap code for synchronous traps can be fetched from the mcause register. This can then be used with a jump table to handle the correct trap.
-% EXPAND
+The trap code for synchronous traps can be fetched from the mcause register. This can then be used with a jump table to handle the correct trap. Synchronous traps fall into two main categories, environment calls and exceptions. For exceptions, most function by outputting an error message, and then depending on the severity of the exception either halting execution or return execution to the cause.
+\subsubsection{Environment Calls}
+Environment calls function using the standard calling convention, where the value in a7 is used to determine the desired environment call, and a0-6 are used as arguments like a standard function. Since the board implements user mode and machine mode, there are two seperate codes for environment calls from user mode and machine mode, although the machine mode enviroment call has limited use as any function performed by the call is already possible if the call was made from machine mode.
 \section{Processes}
 \subsection{Process Structure}
 Due to the extremely limited amount of memory available on the Hifive1, the data required to store information on each process has to be structured carefully, else the amount of memory required to store process information would begin to limit the amount of memory available to the processes themselves. In the current implementation, 35 words are used to store process information.
@@ -85,54 +86,55 @@ For this project, \gls{riscv}'s \ac{pmp} will be used to implement and enforce a
 \subsection{Address Space Layout}
 % Diagram of space, with stack at the top pointing downwards, and a space for the global pointer at the bottom, possibly next to an illustration of all memory or maybe actual layout of machine space
 Each 2 KiB address space has 2 pointers. The global pointer, gp, points to the bottom of the address space, and is used to store global variables for a process, so should not change unless a program chooses to use the gp register for another purpose. The stack pointer, sp, initially points to the byte above the top of the address space. This is used to implement a full descending stack. Sp will always store the pointer to the last item added to the stack, so when the stack is empty it will point to the byte outside of the stack.
-\subsection{\ac{pmp} Use}
+\subsection{PMP Use}
 To enforce the address spaces, \gls{riscv}'s PMP is used. PMP allows us to specify sections of code to have have restricted access to calls from user mode. This is done by setting the values in the pmpaddr and pmpcfg CSRs. It can be done in two ways, either the top of range setting which protects the region between a specified top address and either the previously referenced address, or 0x00000000. This allows a precise range however it would require storing two values in each process for its text section. The other method is to specify an address which is naturally aligned to a power of two. This means that the address is a multiple of that power of two. The value of the power of two is specified by using the trailing zero bits of the naturally aligned address, where all but the most significant zero bit is set to one. The configuration for each is stored as one byte, with 5 fields, R, W, X, A, and L. R, X, and W control the read, write and execution access in each region, A controls whether that control region is active and the method which the region is specified, and L will lock the settings and also enforce the settings to both user mode and machine mode until reset. When L is not set, code executed in machine mode will ignore the \ac{pmp} settings.\\
 These addresses are store in the CSRs pmpaddr0 to pmpaddr7, which means that the Hifive1 implements up to 8 PMP controlled regions. The configuration of each of these addresses are store in the CSRs pmpcfg0 and pmpcfg1, which each control pmpaddr0-3 and pmpaddr4-7, respectively.\\
 % Find a way to make inline code formatting
 Since the address spaces in RAM are constant the pmpaddr value can be generated by setting address[8] low and address[7:0] high. The text section of a process has a variable size, which is stored as the value \(n\), where the size of the section is \(2^n\) words. There are then two cases to consider when implementing this. When \(n == 0\) it represents the case when the size of the section is only one word. Since this will always result in a naturally aligned address, there is a separate value of A to represent this NA4 case, so all that is required for this case is to set A to 2, and specify the word address. The general case where \(n > 0\) works as previously specified. 
 % Add code section for calculating the address 
 % \newpage
-\begin{figure}[H]
-\begin{lstlisting}[language={[RISC-V]Assembler}]
-    # Calculate the pmpaddr value for the text section
-    lw t1, p_text_pointer(t0)
-    # Value is shifted 2 bits right as it is stored as bit [33:2] of the addr
-    srli t1, t1, 2
-    lb t2, p_text_size(t0)
-    # In the case where n == 0 or n == 1, no alterations to the address occur, so jumps
-    li t3, 1
-    ble t2, t3, set_pmp_addr0
-    # pmp_set_high = 0x01ff_ffff
-    li t3, pmp_set_high
-    # max_text_size = 26
-    li t5, max_text_size
-    sub t5, t5, t2
-    srl t3, t3, t5
-    or t1, t1, t3
-set_pmp_addr0:
-    csrw pmpaddr0, t1
-    # Data address spaces are a constant size
-    lw t1, p_data_pointer(t0)
-    srli t1, t1, 2
-    andi t1, t1, ~0x100
-    ori t1, t1, 0xff
-    csrw pmpaddr1, t1
-    #set pmp1cfg, data value is constant
-    li t2, pmp_data
-    # If text size is 0, A=2(na4)
-    # Otherwise A=3(napot)
-    lb t1, p_text_size(t0)
-    beq t1, zero, set_na4
-    ori t2, t2, pmp_text_napot
-    j set_pmp_cfg
-set_na4:
-    ori t2, t2, pmp_text_na4
-set_pmp_cfg:
-    csrw pmpcfg0, t2
-\end{lstlisting}
-\centering
-\caption[PMP setup]{Set up of the \ac{pmp} when a process is scheduled, from ustil.S}
-\end{figure}
+% Move this to appendix?
+% \begin{figure}[H]
+% \begin{lstlisting}[language={[RISC-V]Assembler}]
+%     # Calculate the pmpaddr value for the text section
+%     lw t1, p_text_pointer(t0)
+%     # Value is shifted 2 bits right as it is stored as bit [33:2] of the addr
+%     srli t1, t1, 2
+%     lb t2, p_text_size(t0)
+%     # In the case where n == 0 or n == 1, no alterations to the address occur, so jumps
+%     li t3, 1
+%     ble t2, t3, set_pmp_addr0
+%     # pmp_set_high = 0x01ff_ffff
+%     li t3, pmp_set_high
+%     # max_text_size = 26
+%     li t5, max_text_size
+%     sub t5, t5, t2
+%     srl t3, t3, t5
+%     or t1, t1, t3
+% set_pmp_addr0:
+%     csrw pmpaddr0, t1
+%     # Data address spaces are a constant size
+%     lw t1, p_data_pointer(t0)
+%     srli t1, t1, 2
+%     andi t1, t1, ~0x100
+%     ori t1, t1, 0xff
+%     csrw pmpaddr1, t1
+%     #set pmp1cfg, data value is constant
+%     li t2, pmp_data
+%     # If text size is 0, A=2(na4)
+%     # Otherwise A=3(napot)
+%     lb t1, p_text_size(t0)
+%     beq t1, zero, set_na4
+%     ori t2, t2, pmp_text_napot
+%     j set_pmp_cfg
+% set_na4:
+%     ori t2, t2, pmp_text_na4
+% set_pmp_cfg:
+%     csrw pmpcfg0, t2
+% \end{lstlisting}
+% \centering
+% \caption[PMP setup]{Set up of the \ac{pmp} when a process is scheduled, from ustil.S}
+% \end{figure}
 \section{IO}
 The Hifive1 has few forms of IO available. Most forms of IO are driven through the \ac{gpio}. This controls the function of each of the Arduino compatible pins, as well as up to two alternate functions for each GPIO pin, which is used to control the \ac{uart}, \ac{spi}, and \ac{pwm}, as well as the RGB LED's featured on the board. 
 \subsection{LED's}
