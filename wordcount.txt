@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 597
+Words in text: 589
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -29,9 +29,9 @@ Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  59+1+0 (1/0/0/0) Chapter: Introduction
+  61+1+0 (1/0/0/0) Chapter: Introduction
   116+1+0 (1/0/0/0) Section: Aims
-  332+3+0 (1/0/0/0) Section: Motivation and Challenges
+  322+3+0 (1/0/0/0) Section: Motivation and Challenges
   90+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
@@ -142,7 +142,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 7598
+Words in text: 7590
 Words in headers: 105
 Words outside text (captions, etc.): 59
 Number of headers: 53
@@ -154,7 +154,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   104+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   1+0+0 (0/0/0/0) File(s) total: abstract.tex
-  597+7+0 (4/0/0/0) File(s) total: chapter1.tex
+  589+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1967+31+15 (17/1/0/0) File(s) total: chapter2.tex
   4863+56+44 (29/2/6/1) File(s) total: chapter3.tex
   0+3+0 (1/0/0/0) File(s) total: chapter4.tex
