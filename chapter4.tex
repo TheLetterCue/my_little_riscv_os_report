@@ -1,6 +1,14 @@
 % Testing and evaluation is very well thought through and described. The report could be used to reproduce the work.
-\chapter[Evaluation and Reflections]{Evaluation and Reflections}
-\label{cha:refl}
+\chapter[Evaluation]{Evaluation}
+\label{cha:eval}
+In this section, I will discuss the capabilities of the designed operating system with comparisons to the original concepts it was implementing to evaluate its effectiveness and completeness.
+\section{Challenges}
+Since this project is hardware based, there are several complications when it comes to testing that do not occur in standard software. This is because the tools available to validate programs are less available, which results on a far greater reliance on manual checking as opposed to automated testing. This problem is made worse as many of the methods of checking for correct execution are reliant on standard IO, which is not available to us as the IO itself is being developed.\\
+Another challenge is the problem of developing with interrupts that are triggered by uncontrollable events, or events that need to function at a high frequency. These include timer interrupts, and external interrupts that function asynchronously like the UART. These limit the functionality of breakpoints, as often the asynchronous behaviour can continue while execution of the rest of the processor is paused, which puts the system into a state that would not occur during normal execution.
+\section{Dissasembly}% find better section title
+The first step to ensuring code is correct was to ensure that the assembled code was assembled and linked correctly. To facilitate this, on assembly the makefile was configured to dissasemble the generated executable, using objdump from the riscv-gnu-toolchain. This enabled me to ensure that the structure of each section was maintained, which is important as many parts of the system require memory alignment, for example in the jump tables used in the enviroment handler and the exception handler require the branch instructions to be word aligned, and that the spacing between entries is correct. The decompilation was also vital when developing the toolchain, as it allowed me to validate that the system would be loaded correctly between Flash and the DTIM.
+\section{Breakpoints and Inspection}
+Of the tools available to debug, one of the most powerful tools is the JTAG interface. The JTAG interface allows an external connection to access the debug CSRs of the system, which allows a host machine to control the execution and memory state of the board, through the use of breakpoints and step through execution and memory commands. To utilise this, I used GDB to load code onto the board, at which point GDB could interface via JTAG to create a similar debug enviroment on the host machine to the debug enviroment of a standard program. 
 % \section{Design Reflections}
 % memory man: was the constant address space sufficient, or should another system have been implemented, like a dynamic system that include requests for heap memory, instead of providing a constant amount
 % processes: was the project developed to allow for sufficient interprocess communication? programs could create forks and new processes however no design was included to allow for these to communicate after the initial creation
