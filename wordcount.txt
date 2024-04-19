@@ -93,7 +93,7 @@ Subcounts:
 
 File: chapter4.tex
 Encoding: ascii
-Words in text: 403
+Words in text: 708
 Words in headers: 6
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -105,17 +105,23 @@ Subcounts:
   28+1+0 (1/0/0/0) Chapter: Evaluation
   157+1+0 (1/0/0/0) Section: Challenges
   122+1+0 (1/0/0/0) Section: Dissasembly
-  96+3+0 (1/0/0/0) Section: Breakpoints and Inspection
+  401+3+0 (1/0/0/0) Section: Breakpoints and Inspection
 
 File: chapter5.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 4
+Words in text: 177
+Words in headers: 10
 Words outside text (captions, etc.): 0
-Number of headers: 1
+Number of headers: 4
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+4+0 (1/0/0/0) Chapter: Conclusions and further work
+  0+3+0 (1/0/0/0) Section: Reflections and Critiques
+  92+2+0 (1/0/0/0) Subsection: Memory Management
+  85+1+0 (1/0/0/0) Subsection: Scheduling
 
 File: glossary.tex
 Encoding: ascii
@@ -148,10 +154,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 7977
-Words in headers: 108
+Words in text: 8459
+Words in headers: 114
 Words outside text (captions, etc.): 103
-Number of headers: 56
+Number of headers: 59
 Number of floats/tables/figures: 6
 Number of math inlines: 6
 Number of math displayed: 1
@@ -163,8 +169,8 @@ Subcounts:
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1958+31+15 (17/1/0/0) File(s) total: chapter2.tex
   4849+56+88 (29/5/6/1) File(s) total: chapter3.tex
-  403+6+0 (4/0/0/0) File(s) total: chapter4.tex
-  0+4+0 (1/0/0/0) File(s) total: chapter5.tex
+  708+6+0 (4/0/0/0) File(s) total: chapter4.tex
+  177+10+0 (4/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
   2+0+0 (0/0/0/0) File(s) total: merci.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex

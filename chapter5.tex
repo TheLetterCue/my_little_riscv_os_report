@@ -1,3 +1,8 @@
 % The work has been very well summarised. There is a critical analysis of the work in a thorough and honest way. The ability to see weaknesses is apparent and good solutions to problems are given. Several ideas for future work are detailed which are ambitious, relevant and well thought out
 \chapter[Conclusions and further work]{Conclusions and further work}
 \label{cha:conc}
+\section{Reflections and Critiques}
+\subsection{Memory Management}
+The address space method to the management of RAM does provide sufficient resources to allow for basic function, but does have many drawbacks. The fixed section sizes were chosen because when working with limited resouces having a known limit enables a program to be optimised for that limit. With dynamic memory allocation, a process could use a larger amount of memory if not in use by other processors. This could lead to more efficient use of resources, and could potentially increase the limit on the number of processes that could be ran.
+\subsection{Scheduling}
+The choice to implement an interactive scheduler was made because it was an interesting technical challenge. As the project was developed it became clear that while it could be implemented, the actual interactivity of the system would be limited not by the scheduling, but by the IO available to use. An interactice scheduler would benefit from an increase in the number of IO sources, which is possible through the use of the GPIO pins, however this was not able to be implemented in the timeframe.
