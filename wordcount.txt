@@ -10,7 +10,7 @@ Number of math displayed: 0
 
 File: abstract.tex
 Encoding: ascii
-Words in text: 1
+Words in text: 40
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -109,19 +109,18 @@ Subcounts:
 
 File: chapter5.tex
 Encoding: ascii
-Words in text: 177
-Words in headers: 10
+Words in text: 389
+Words in headers: 9
 Words outside text (captions, etc.): 0
-Number of headers: 4
+Number of headers: 3
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Chapter: Conclusions and further work
-  0+3+0 (1/0/0/0) Section: Reflections and Critiques
-  92+2+0 (1/0/0/0) Subsection: Memory Management
-  85+1+0 (1/0/0/0) Subsection: Scheduling
+  267+3+0 (1/0/0/0) Section: Summary of work
+  122+2+0 (1/0/0/0) Section: Future Work
 
 File: glossary.tex
 Encoding: ascii
@@ -154,10 +153,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 8459
-Words in headers: 114
+Words in text: 8710
+Words in headers: 113
 Words outside text (captions, etc.): 103
-Number of headers: 59
+Number of headers: 58
 Number of floats/tables/figures: 6
 Number of math inlines: 6
 Number of math displayed: 1
@@ -165,12 +164,12 @@ Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   110+0+0 (0/0/0/0) File(s) total: abbreviations.tex
-  1+0+0 (0/0/0/0) File(s) total: abstract.tex
+  40+0+0 (0/0/0/0) File(s) total: abstract.tex
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
   1958+31+15 (17/1/0/0) File(s) total: chapter2.tex
   4849+56+88 (29/5/6/1) File(s) total: chapter3.tex
   708+6+0 (4/0/0/0) File(s) total: chapter4.tex
-  177+10+0 (4/0/0/0) File(s) total: chapter5.tex
+  389+9+0 (3/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
   2+0+0 (0/0/0/0) File(s) total: merci.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
