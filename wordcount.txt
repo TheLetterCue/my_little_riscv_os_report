@@ -1,6 +1,6 @@
 File: abbreviations.tex
 Encoding: ascii
-Words in text: 110
+Words in text: 117
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -36,11 +36,11 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 2167
+Words in text: 2169
 Words in headers: 37
-Words outside text (captions, etc.): 53
+Words outside text (captions, etc.): 82
 Number of headers: 20
-Number of floats/tables/figures: 3
+Number of floats/tables/figures: 4
 Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
@@ -52,17 +52,17 @@ Subcounts:
   312+7+0 (3/0/0/0) Subsection: IO Management
   70+1+0 (1/0/0/0) Section: RISC-V
   433+6+0 (3/0/0/0) Subsection: Base ISA
-  366+5+0 (3/0/0/0) Subsection: Registers
+  366+5+29 (3/1/0/0) Subsection: Registers
   67+2+38 (1/2/0/0) Subsection: Control Flow
-  262+3+0 (3/0/0/0) Subsection: Traps
+  264+3+0 (3/0/0/0) Subsection: Traps
   67+3+15 (1/1/0/0) Section: Information on board
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 4849
-Words in headers: 56
+Words in text: 4946
+Words in headers: 60
 Words outside text (captions, etc.): 88
-Number of headers: 29
+Number of headers: 30
 Number of floats/tables/figures: 5
 Number of math inlines: 6
 Number of math displayed: 1
@@ -70,6 +70,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
   484+1+0 (1/0/0/0) Section: Toolchain
+  97+4+0 (1/0/0/0) Section: Code Style and Structure
   235+4+0 (1/0/0/0) Section: Board Boot and Configuration
   370+2+44 (1/2/0/0) Subsection: Clock settings
   27+2+0 (1/0/0/0) Subsection: Other Settings
@@ -154,21 +155,21 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 8919
-Words in headers: 119
-Words outside text (captions, etc.): 141
-Number of headers: 61
-Number of floats/tables/figures: 8
+Words in text: 9025
+Words in headers: 123
+Words outside text (captions, etc.): 170
+Number of headers: 62
+Number of floats/tables/figures: 9
 Number of math inlines: 6
 Number of math displayed: 1
 Files: 10
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  110+0+0 (0/0/0/0) File(s) total: abbreviations.tex
+  117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   40+0+0 (0/0/0/0) File(s) total: abstract.tex
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  2167+37+53 (20/3/0/0) File(s) total: chapter2.tex
-  4849+56+88 (29/5/6/1) File(s) total: chapter3.tex
+  2169+37+82 (20/4/0/0) File(s) total: chapter2.tex
+  4946+60+88 (30/5/6/1) File(s) total: chapter3.tex
   708+6+0 (4/0/0/0) File(s) total: chapter4.tex
   389+9+0 (3/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
