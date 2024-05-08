@@ -36,7 +36,7 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 2169
+Words in text: 2168
 Words in headers: 37
 Words outside text (captions, etc.): 82
 Number of headers: 20
@@ -47,7 +47,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   75+1+0 (1/0/0/0) Chapter: Background
   57+3+0 (1/0/0/0) Section: Operating System Fundamentals
-  305+4+0 (2/0/0/0) Subsection: Process Management
+  304+4+0 (2/0/0/0) Subsection: Process Management
   153+2+0 (1/0/0/0) Subsection: Memory Management
   312+7+0 (3/0/0/0) Subsection: IO Management
   70+1+0 (1/0/0/0) Section: RISC-V
@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5341
+Words in text: 5339
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -86,16 +86,16 @@ Subcounts:
   276+3+0 (1/0/0/0) Subsection: Running a process
   629+6+0 (2/0/0/0) Subsection: Preemption and Scheduling
   0+2+0 (1/0/0/0) Section: Memory Management
-  286+2+14 (1/1/0/0) Subsection: Address Spaces
+  285+2+14 (1/1/0/0) Subsection: Address Spaces
   101+3+15 (1/1/0/0) Subsection: Address Space Layout
-  401+2+0 (1/0/4/0) Subsection: PMP Use
+  400+2+0 (1/0/4/0) Subsection: PMP Use
   58+1+0 (1/0/0/0) Section: IO
   106+1+0 (1/0/0/0) Subsection: LEDs
   670+10+0 (5/0/0/1) Subsection: Text input and output
 
 File: chapter4.tex
 Encoding: ascii
-Words in text: 708
+Words in text: 766
 Words in headers: 6
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -107,7 +107,7 @@ Subcounts:
   28+1+0 (1/0/0/0) Chapter: Evaluation
   157+1+0 (1/0/0/0) Section: Challenges
   122+1+0 (1/0/0/0) Section: Dissasembly
-  401+3+0 (1/0/0/0) Section: Breakpoints and Inspection
+  459+3+0 (1/0/0/0) Section: Breakpoints and Inspection
 
 File: chapter5.tex
 Encoding: ascii
@@ -124,26 +124,6 @@ Subcounts:
   267+3+0 (1/0/0/0) Section: Summary of work
   122+2+0 (1/0/0/0) Section: Future Work
 
-File: glossary.tex
-Encoding: ascii
-Words in text: 64
-Words in headers: 0
-Words outside text (captions, etc.): 0
-Number of headers: 0
-Number of floats/tables/figures: 0
-Number of math inlines: 0
-Number of math displayed: 0
-
-File: merci.tex
-Encoding: ascii
-Words in text: 2
-Words in headers: 0
-Words outside text (captions, etc.): 0
-Number of headers: 0
-Number of floats/tables/figures: 0
-Number of math inlines: 0
-Number of math displayed: 0
-
 File: report.tex
 Encoding: utf8
 Words in text: 0
@@ -155,24 +135,22 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9434
+Words in text: 9423
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
 Number of floats/tables/figures: 10
 Number of math inlines: 6
 Number of math displayed: 1
-Files: 10
+Files: 8
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   54+0+0 (0/0/0/0) File(s) total: abstract.tex
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  2169+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5341+61+110 (30/6/6/1) File(s) total: chapter3.tex
-  708+6+0 (4/0/0/0) File(s) total: chapter4.tex
+  2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
+  5339+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  766+6+0 (4/0/0/0) File(s) total: chapter4.tex
   389+9+0 (3/0/0/0) File(s) total: chapter5.tex
-  64+0+0 (0/0/0/0) File(s) total: glossary.tex
-  2+0+0 (0/0/0/0) File(s) total: merci.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
 
