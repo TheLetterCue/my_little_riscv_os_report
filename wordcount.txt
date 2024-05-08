@@ -59,18 +59,19 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 4946
-Words in headers: 60
+Words in text: 5123
+Words in headers: 61
 Words outside text (captions, etc.): 88
-Number of headers: 30
+Number of headers: 31
 Number of floats/tables/figures: 5
 Number of math inlines: 6
 Number of math displayed: 1
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
-  484+1+0 (1/0/0/0) Section: Toolchain
   97+4+0 (1/0/0/0) Section: Code Style and Structure
+  149+1+0 (1/0/0/0) Subsection: Structure
+  512+1+0 (1/0/0/0) Subsection: Toolchain
   235+4+0 (1/0/0/0) Section: Board Boot and Configuration
   370+2+44 (1/2/0/0) Subsection: Clock settings
   27+2+0 (1/0/0/0) Subsection: Other Settings
@@ -155,10 +156,10 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9025
-Words in headers: 123
+Words in text: 9202
+Words in headers: 124
 Words outside text (captions, etc.): 170
-Number of headers: 62
+Number of headers: 63
 Number of floats/tables/figures: 9
 Number of math inlines: 6
 Number of math displayed: 1
@@ -169,7 +170,7 @@ Subcounts:
   40+0+0 (0/0/0/0) File(s) total: abstract.tex
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2169+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  4946+60+88 (30/5/6/1) File(s) total: chapter3.tex
+  5123+61+88 (31/5/6/1) File(s) total: chapter3.tex
   708+6+0 (4/0/0/0) File(s) total: chapter4.tex
   389+9+0 (3/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
