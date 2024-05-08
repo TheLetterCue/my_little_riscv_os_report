@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5340
+Words in text: 5418
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -68,14 +68,14 @@ Number of math inlines: 6
 Number of math displayed: 1
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+3+0 (1/0/0/0) Chapter: Design and Implementation
+  30+3+0 (1/0/0/0) Chapter: Design and Implementation
   97+4+0 (1/0/0/0) Section: Code Style and Structure
   150+1+0 (1/0/0/0) Subsection: Structure
   512+1+0 (1/0/0/0) Subsection: Toolchain
   0+1+0 (1/0/0/0) Section: Processes
   412+2+22 (1/1/2/0) Subsection: Process Structure
   201+1+15 (1/1/0/0) Subsection: States
-  355+4+0 (1/0/0/0) Section: Board Boot and Configuration
+  367+4+0 (1/0/0/0) Section: Board Boot and Configuration
   370+2+44 (1/2/0/0) Subsection: Clock settings
   0+1+0 (1/0/0/0) Section: Traps
   219+1+0 (1/0/0/0) Subsection: Configuration
@@ -91,7 +91,7 @@ Subcounts:
   400+2+0 (1/0/4/0) Subsection: PMP Use
   58+1+0 (1/0/0/0) Section: IO
   106+1+0 (1/0/0/0) Subsection: LEDs
-  670+10+0 (5/0/0/1) Subsection: Text input and output
+  706+10+0 (5/0/0/1) Subsection: Text input and output
 
 File: chapter4.tex
 Encoding: ascii
@@ -111,7 +111,7 @@ Subcounts:
 
 File: chapter5.tex
 Encoding: ascii
-Words in text: 389
+Words in text: 490
 Words in headers: 9
 Words outside text (captions, etc.): 0
 Number of headers: 3
@@ -120,9 +120,9 @@ Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+4+0 (1/0/0/0) Chapter: Conclusions and further work
-  267+3+0 (1/0/0/0) Section: Summary of work
-  122+2+0 (1/0/0/0) Section: Future Work
+  31+4+0 (1/0/0/0) Chapter: Conclusions and further work
+  290+3+0 (1/0/0/0) Section: Summary of Work
+  169+2+0 (1/0/0/0) Section: Future Work
 
 File: report.tex
 Encoding: utf8
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9462
+Words in text: 9641
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
@@ -149,8 +149,8 @@ Subcounts:
   91+0+0 (0/0/0/0) File(s) total: abstract.tex
   591+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5340+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  5418+61+110 (30/6/6/1) File(s) total: chapter3.tex
   766+6+0 (4/0/0/0) File(s) total: chapter4.tex
-  389+9+0 (3/0/0/0) File(s) total: chapter5.tex
+  490+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
 
