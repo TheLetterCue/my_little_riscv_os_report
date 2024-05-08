@@ -10,7 +10,7 @@ Number of math displayed: 0
 
 File: abstract.tex
 Encoding: ascii
-Words in text: 54
+Words in text: 91
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 590
+Words in text: 591
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -31,7 +31,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   61+1+0 (1/0/0/0) Chapter: Introduction
   116+1+0 (1/0/0/0) Section: Aims
-  322+3+0 (1/0/0/0) Section: Motivation and Challenges
+  323+3+0 (1/0/0/0) Section: Motivation and Challenges
   91+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5339
+Words in text: 5340
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -70,7 +70,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+3+0 (1/0/0/0) Chapter: Design and Implementation
   97+4+0 (1/0/0/0) Section: Code Style and Structure
-  149+1+0 (1/0/0/0) Subsection: Structure
+  150+1+0 (1/0/0/0) Subsection: Structure
   512+1+0 (1/0/0/0) Subsection: Toolchain
   0+1+0 (1/0/0/0) Section: Processes
   412+2+22 (1/1/2/0) Subsection: Process Structure
@@ -106,7 +106,7 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   28+1+0 (1/0/0/0) Chapter: Evaluation
   157+1+0 (1/0/0/0) Section: Challenges
-  122+1+0 (1/0/0/0) Section: Dissasembly
+  122+1+0 (1/0/0/0) Section: Disassembly
   459+3+0 (1/0/0/0) Section: Breakpoints and Inspection
 
 File: chapter5.tex
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9423
+Words in text: 9462
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
@@ -146,10 +146,10 @@ Files: 8
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
-  54+0+0 (0/0/0/0) File(s) total: abstract.tex
-  590+7+0 (4/0/0/0) File(s) total: chapter1.tex
+  91+0+0 (0/0/0/0) File(s) total: abstract.tex
+  591+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5339+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  5340+61+110 (30/6/6/1) File(s) total: chapter3.tex
   766+6+0 (4/0/0/0) File(s) total: chapter4.tex
   389+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
