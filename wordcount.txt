@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5303
+Words in text: 5341
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -78,12 +78,12 @@ Subcounts:
   355+4+0 (1/0/0/0) Section: Board Boot and Configuration
   370+2+44 (1/2/0/0) Subsection: Clock settings
   0+1+0 (1/0/0/0) Section: Traps
-  210+1+0 (1/0/0/0) Subsection: Configuration
-  155+2+0 (1/0/0/0) Subsection: Asynchronous Traps
-  146+4+0 (2/0/0/0) Subsection: Synchronous Traps
-  52+1+0 (1/0/0/0) Section: Scheduler
+  219+1+0 (1/0/0/0) Subsection: Configuration
+  166+2+0 (1/0/0/0) Subsection: Asynchronous Traps
+  135+4+0 (2/0/0/0) Subsection: Synchronous Traps
+  63+1+0 (1/0/0/0) Section: Scheduler
   135+3+0 (1/0/0/0) Subsection: Creating a Process
-  258+3+0 (1/0/0/0) Subsection: Running a process
+  276+3+0 (1/0/0/0) Subsection: Running a process
   629+6+0 (2/0/0/0) Subsection: Preemption and Scheduling
   0+2+0 (1/0/0/0) Section: Memory Management
   286+2+14 (1/1/0/0) Subsection: Address Spaces
@@ -155,7 +155,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9396
+Words in text: 9434
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
@@ -169,7 +169,7 @@ Subcounts:
   54+0+0 (0/0/0/0) File(s) total: abstract.tex
   590+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2169+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5303+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  5341+61+110 (30/6/6/1) File(s) total: chapter3.tex
   708+6+0 (4/0/0/0) File(s) total: chapter4.tex
   389+9+0 (3/0/0/0) File(s) total: chapter5.tex
   64+0+0 (0/0/0/0) File(s) total: glossary.tex
