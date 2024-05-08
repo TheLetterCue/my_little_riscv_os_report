@@ -10,7 +10,7 @@ Number of math displayed: 0
 
 File: abstract.tex
 Encoding: ascii
-Words in text: 91
+Words in text: 105
 Words in headers: 0
 Words outside text (captions, etc.): 0
 Number of headers: 0
@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 591
+Words in text: 606
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -30,9 +30,9 @@ Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   61+1+0 (1/0/0/0) Chapter: Introduction
-  116+1+0 (1/0/0/0) Section: Aims
+  121+1+0 (1/0/0/0) Section: Aims
   323+3+0 (1/0/0/0) Section: Motivation and Challenges
-  91+2+0 (1/0/0/0) Section: Report Outline
+  101+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
 Encoding: ascii
@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5418
+Words in text: 5443
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -71,7 +71,7 @@ Subcounts:
   30+3+0 (1/0/0/0) Chapter: Design and Implementation
   97+4+0 (1/0/0/0) Section: Code Style and Structure
   150+1+0 (1/0/0/0) Subsection: Structure
-  512+1+0 (1/0/0/0) Subsection: Toolchain
+  537+1+0 (1/0/0/0) Subsection: Toolchain
   0+1+0 (1/0/0/0) Section: Processes
   412+2+22 (1/1/2/0) Subsection: Process Structure
   201+1+15 (1/1/0/0) Subsection: States
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9641
+Words in text: 9695
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
@@ -146,10 +146,10 @@ Files: 8
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
-  91+0+0 (0/0/0/0) File(s) total: abstract.tex
-  591+7+0 (4/0/0/0) File(s) total: chapter1.tex
+  105+0+0 (0/0/0/0) File(s) total: abstract.tex
+  606+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5418+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  5443+61+110 (30/6/6/1) File(s) total: chapter3.tex
   766+6+0 (4/0/0/0) File(s) total: chapter4.tex
   490+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex

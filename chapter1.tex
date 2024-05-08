@@ -3,7 +3,7 @@
 \label{cha:intro}
 There are many low level concepts that are discussed over the course of a standard undergraduate degree. This project sets out to explore some these concepts through basic implementation and experimentation, using simple hardware to allow full comprehension of a system being used during development. This chapter will introduce the aims of the project, and describe the motivations behind the project.
 \section{Aims}
-The overall aim of this project is to produce an operating system for a RISC-V based microcontroller, that allows the execution of multiple processes. To do this, a RISC-V machine must be selected and a toolchain to develop, load, and execute/debug code on the machine must be made. The elements of the operating system will be split into three main aims; the execution and scheduling of processes, the implementation of basic memory management to restrict each processes memory access, and the development of \ac{io} to allow interaction between the processes and a user. The effectiveness and limitations of the system will then be evaluated and the RISC-V architecture will be compared with other \ac{risc} architectures.
+The overall aim of this project is to produce an operating system for a RISC-V based microcontroller, that allows the execution of multiple processes. To do this, a RISC-V machine must be selected and a toolchain to develop, load, and execute/debug code on the machine must be made. The elements of the operating system will be split into three main aims; the execution and scheduling of processes, the implementation of basic memory management to restrict each processes memory access, and the development of \ac{io} to allow interaction between the processes and a user. The effectiveness and limitations of the system will then be evaluated and the RISC-V architecture will be compared with the main competing \ac{risc} architecture to RISC-V, ARM. 
 
 \section{Motivation and Challenges}
 The basis of this project is to facilitate experimentation with operating system concepts as, while in a university level course the concepts are explained, it is often not possible to showcase these concepts in a practical environment, limited often to simulations. By using a bare metal system, this project will allow full access to a machine with no other system software, allowing complete control over the environment, which allows the implementation of concepts like processes and memory management. \\
@@ -14,11 +14,11 @@ Other challenges include system limitations, as unlike a modern machine that wou
 
 \section{Report Outline}
 \begin{itemize}
-    \item Introduction: This chapter gives the basic overview of the planned project
+    \item Introduction: This chapter gives the basic overview of the planned project and define the projects aims
     \item Background: This chapter will introduce key concepts to enable a more comprehensive understanding of the projects details
     \item Design: This chapter will outline the key design decisions made before and during the project
     \item Implementation: This chapter will give details on the practical implementation of concepts and designs mentioned in previous chapters
     \item Evaluation: This chapter will describe how the project was tested for completeness and correctness
-    \item Conclusion: This chapter will give a summary of how the aims of the project were met 
+    \item Conclusion: This chapter will give a summary of how the aims of the project were met and discuss possible future work
 \end{itemize}
 
