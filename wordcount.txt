@@ -20,7 +20,7 @@ Number of math displayed: 0
 
 File: chapter1.tex
 Encoding: ascii
-Words in text: 606
+Words in text: 658
 Words in headers: 7
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -31,8 +31,8 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   61+1+0 (1/0/0/0) Chapter: Introduction
   121+1+0 (1/0/0/0) Section: Aims
-  323+3+0 (1/0/0/0) Section: Motivation and Challenges
-  101+2+0 (1/0/0/0) Section: Report Outline
+  372+3+0 (1/0/0/0) Section: Motivation and Challenges
+  104+2+0 (1/0/0/0) Section: Report Outline
 
 File: chapter2.tex
 Encoding: ascii
@@ -59,7 +59,7 @@ Subcounts:
 
 File: chapter3.tex
 Encoding: ascii
-Words in text: 5443
+Words in text: 5444
 Words in headers: 61
 Words outside text (captions, etc.): 110
 Number of headers: 30
@@ -82,7 +82,7 @@ Subcounts:
   166+2+0 (1/0/0/0) Subsection: Asynchronous Traps
   135+4+0 (2/0/0/0) Subsection: Synchronous Traps
   63+1+0 (1/0/0/0) Section: Scheduler
-  135+3+0 (1/0/0/0) Subsection: Creating a Process
+  136+3+0 (1/0/0/0) Subsection: Creating a Process
   276+3+0 (1/0/0/0) Subsection: Running a process
   629+6+0 (2/0/0/0) Subsection: Preemption and Scheduling
   0+2+0 (1/0/0/0) Section: Memory Management
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9695
+Words in text: 9748
 Words in headers: 124
 Words outside text (captions, etc.): 192
 Number of headers: 62
@@ -147,9 +147,9 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   105+0+0 (0/0/0/0) File(s) total: abstract.tex
-  606+7+0 (4/0/0/0) File(s) total: chapter1.tex
+  658+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
-  5443+61+110 (30/6/6/1) File(s) total: chapter3.tex
+  5444+61+110 (30/6/6/1) File(s) total: chapter3.tex
   766+6+0 (4/0/0/0) File(s) total: chapter4.tex
   490+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
