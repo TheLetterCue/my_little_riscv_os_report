@@ -36,8 +36,8 @@ Subcounts:
 
 File: chapter2.tex
 Encoding: ascii
-Words in text: 2168
-Words in headers: 37
+Words in text: 2217
+Words in headers: 39
 Words outside text (captions, etc.): 82
 Number of headers: 20
 Number of floats/tables/figures: 4
@@ -45,16 +45,16 @@ Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  75+1+0 (1/0/0/0) Chapter: Background
+  76+1+0 (1/0/0/0) Chapter: Background
   57+3+0 (1/0/0/0) Section: Operating System Fundamentals
-  304+4+0 (2/0/0/0) Subsection: Process Management
-  153+2+0 (1/0/0/0) Subsection: Memory Management
-  312+7+0 (3/0/0/0) Subsection: IO Management
-  70+1+0 (1/0/0/0) Section: RISC-V
-  433+6+0 (3/0/0/0) Subsection: Base ISA
-  366+5+29 (3/1/0/0) Subsection: Registers
+  315+4+0 (2/0/0/0) Subsection: Process Management
+  158+2+0 (1/0/0/0) Subsection: Memory Management
+  297+7+0 (3/0/0/0) Subsection: IO Management
+  80+1+0 (1/0/0/0) Section: RISC-V
+  456+6+0 (3/0/0/0) Subsection: Base ISA
+  380+5+29 (3/1/0/0) Subsection: Registers
   67+2+38 (1/2/0/0) Subsection: Control Flow
-  264+3+0 (3/0/0/0) Subsection: Traps
+  264+5+0 (3/0/0/0) Subsection: Traps
   67+3+15 (1/1/0/0) Section: Information on board
 
 File: chapter3.tex
@@ -135,8 +135,8 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9748
-Words in headers: 124
+Words in text: 9797
+Words in headers: 126
 Words outside text (captions, etc.): 192
 Number of headers: 62
 Number of floats/tables/figures: 10
@@ -148,7 +148,7 @@ Subcounts:
   117+0+0 (0/0/0/0) File(s) total: abbreviations.tex
   105+0+0 (0/0/0/0) File(s) total: abstract.tex
   658+7+0 (4/0/0/0) File(s) total: chapter1.tex
-  2168+37+82 (20/4/0/0) File(s) total: chapter2.tex
+  2217+39+82 (20/4/0/0) File(s) total: chapter2.tex
   5444+61+110 (30/6/6/1) File(s) total: chapter3.tex
   766+6+0 (4/0/0/0) File(s) total: chapter4.tex
   490+9+0 (3/0/0/0) File(s) total: chapter5.tex
