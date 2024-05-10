@@ -95,7 +95,7 @@ Subcounts:
 
 File: chapter4.tex
 Encoding: ascii
-Words in text: 766
+Words in text: 755
 Words in headers: 6
 Words outside text (captions, etc.): 0
 Number of headers: 4
@@ -106,8 +106,8 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   28+1+0 (1/0/0/0) Chapter: Evaluation
   157+1+0 (1/0/0/0) Section: Challenges
-  122+1+0 (1/0/0/0) Section: Disassembly
-  459+3+0 (1/0/0/0) Section: Breakpoints and Inspection
+  121+1+0 (1/0/0/0) Section: Disassembly
+  449+3+0 (1/0/0/0) Section: Breakpoints and Inspection
 
 File: chapter5.tex
 Encoding: ascii
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9825
+Words in text: 9814
 Words in headers: 126
 Words outside text (captions, etc.): 195
 Number of headers: 62
@@ -150,7 +150,7 @@ Subcounts:
   658+7+0 (4/0/0/0) File(s) total: chapter1.tex
   2217+39+82 (20/4/0/0) File(s) total: chapter2.tex
   5472+61+113 (30/6/6/1) File(s) total: chapter3.tex
-  766+6+0 (4/0/0/0) File(s) total: chapter4.tex
+  755+6+0 (4/0/0/0) File(s) total: chapter4.tex
   490+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
 
