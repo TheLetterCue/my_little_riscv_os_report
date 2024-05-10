@@ -111,7 +111,7 @@ Subcounts:
 
 File: chapter5.tex
 Encoding: ascii
-Words in text: 490
+Words in text: 483
 Words in headers: 9
 Words outside text (captions, etc.): 0
 Number of headers: 3
@@ -120,9 +120,9 @@ Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  31+4+0 (1/0/0/0) Chapter: Conclusions and further work
-  290+3+0 (1/0/0/0) Section: Summary of Work
-  169+2+0 (1/0/0/0) Section: Future Work
+  28+4+0 (1/0/0/0) Chapter: Conclusions and further work
+  287+3+0 (1/0/0/0) Section: Summary of Work
+  168+2+0 (1/0/0/0) Section: Future Work
 
 File: report.tex
 Encoding: utf8
@@ -135,7 +135,7 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 Total
-Words in text: 9814
+Words in text: 9807
 Words in headers: 126
 Words outside text (captions, etc.): 195
 Number of headers: 62
@@ -151,6 +151,6 @@ Subcounts:
   2217+39+82 (20/4/0/0) File(s) total: chapter2.tex
   5472+61+113 (30/6/6/1) File(s) total: chapter3.tex
   755+6+0 (4/0/0/0) File(s) total: chapter4.tex
-  490+9+0 (3/0/0/0) File(s) total: chapter5.tex
+  483+9+0 (3/0/0/0) File(s) total: chapter5.tex
   0+4+0 (1/0/0/0) File(s) total: report.tex
 
